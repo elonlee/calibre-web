@@ -221,13 +221,16 @@ def send_mail(book_id, book_format, convert, ereader_mail, calibrepath, user_id)
     for entry in iter(book.data):
         if entry.format.upper() == book_format.upper():
             converted_file_name = entry.name + '.' + book_format.lower()
-            attachment_name = book.title + '.' + book_format.lower()
+            attachment_name = book.title
+            if len(book.authors) > 0:
+                attachment_name = attachment_name + ' - ' + book.authors[0].name
+            attachment_name = get_valid_filename(attachment_name, replace_whitespace=False)+ '.' + book_format.lower()
             link = '<a href="{}">{}</a>'.format(url_for('web.show_book', book_id=book_id), escape(book.title))
             email_text = N_(u"%(book)s send to E-Reader", book=link)
             WorkerThread.add(user_id, TaskEmail(_(u"Send to E-Reader"), book.path, converted_file_name,
                              config.get_mail_settings(), ereader_mail,
-                             email_text, _(u'This e-mail has been sent via Calibre-Web.')),
-                             False,attachment_name)
+                             email_text, _(u'This e-mail has been sent via Calibre-Web.'),
+                             False,attachment_name))
 
             return
     return _(u"The requested file could not be read. Maybe wrong permissions?")
