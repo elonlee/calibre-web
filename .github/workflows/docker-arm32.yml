@@ -15,9 +15,9 @@ jobs:
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.PACKAGE_TOKEN }}
+          registry: registry.cn-hangzhou.aliyuncs.com
+          username: ${{ secrets.ALI_USER }}
+          password: ${{ secrets.ALI_TOKEN }}
 
       - name: Build and push
         uses: docker/build-push-action@v3
@@ -26,5 +26,5 @@ jobs:
           platforms: linux/arm32
           file: docker/Dockerfile.armhf
           push: true
-          tags: ghcr.io/elonlee/calibre-web:arm32-latest          
+          tags: registry.cn-hangzhou.aliyuncs.com/elonpub/calibre-web:arm32-latest          
 
