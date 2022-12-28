@@ -85,7 +85,8 @@ def add_security_headers(resp):
     csp += " 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; img-src 'self' "
     if request.path.startswith("/author/") and config.config_use_goodreads:
         csp += "images.gr-assets.com i.gr-assets.com s.gr-assets.com"
-    csp += " data:"
+    csp += " data:;"
+    csp += " object-src: 'none';"
     resp.headers['Content-Security-Policy'] = csp
     if request.endpoint == "edit-book.show_edit_book" or config.config_use_google_drive:
         resp.headers['Content-Security-Policy'] += " *"
@@ -1245,6 +1246,7 @@ def register():
             password = generate_random_password()
             content.password = generate_password_hash(password)
             content.role = config.config_default_role
+            content.locale = config.config_default_locale
             content.sidebar_view = config.config_default_show
             try:
                 ub.session.add(content)
