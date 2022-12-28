@@ -1,299 +1,290 @@
-# Traducción al Español for Calibre-Web.
-# Copyright (C) 2016 Smart Cities Community
+# Indonesian translations for Calibre-Web.
+# Copyright (C) 2017 Calibre-Web
 # This file is distributed under the same license as the Calibre-Web
-# Juan F. Villa <juan.villa@paisdelconocimiento.org>, 2016.
-# victorhck <victorhck@mailbox.org>, 2018.
-# Angel Docampo <angel@docampo.net>, 2019.
-# Rafael A. Roa Hernández <rafaroah@me.com>, 2020.
+# project.
+# FIRST AUTHOR Arief Hidayat<arihid95@gmail.com>, 2021-2022.
 msgid ""
 msgstr ""
 "Project-Id-Version:  Calibre-Web\n"
 "Report-Msgid-Bugs-To: https://github.com/janeczku/Calibre-Web\n"
 "POT-Creation-Date: 2022-12-27 09:10+0100\n"
-"PO-Revision-Date: 2020-05-25 17:22+0200\n"
-"Last-Translator: minakmostoles <xxx@xxx.com>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2022-11-21 18:25+0700\n"
+"Last-Translator: Arief Hidayat<arihid95@gmail.com>\n"
+"Language: id\n"
+"Language-Team: Arief Hidayat <arihid95@gmail.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
 
-# "Last-Translator: victorhck <victorhck@mailbox.org>\n"
 #: cps/about.py:84
 msgid "Statistics"
-msgstr "Estadísticas"
+msgstr "Statistik"
 
 #: cps/admin.py:148
 msgid "Server restarted, please reload page"
-msgstr "Servidor reiniciado. Por favor, recargue la página"
+msgstr "Server dimulai ulang, harap muat ulang halaman"
 
 #: cps/admin.py:150
 msgid "Performing shutdown of server, please close window"
-msgstr "El servidor se está apagando. Por favor, cierre la ventana"
+msgstr "Mematikan server, silakan tutup jendela"
 
 #: cps/admin.py:158
 msgid "Reconnect successful"
-msgstr "Reconexión correcta"
+msgstr "Berhasil menghubungkan ulang"
 
 #: cps/admin.py:161
 msgid "Unknown command"
-msgstr "Comando desconocido"
+msgstr "Perintah tidak diketahui"
 
 #: cps/admin.py:172
 #, fuzzy
 msgid "Books successfully queued for Metadata Backup"
-msgstr "Libro puesto en la cola de envío a %(kindlemail)s"
+msgstr "Buku berhasil diantrekan untuk Pencadangan Metadata"
 
 #: cps/admin.py:205 cps/editbooks.py:576 cps/editbooks.py:578
 #: cps/editbooks.py:614 cps/editbooks.py:631 cps/editbooks.py:1238
 #: cps/updater.py:613 cps/uploader.py:86 cps/uploader.py:96
 msgid "Unknown"
-msgstr "Desconocido"
+msgstr "Tidak diketahui"
 
 #: cps/admin.py:230
 msgid "Admin page"
-msgstr "Página de administración"
+msgstr "Halaman Admin"
 
 #: cps/admin.py:250
 msgid "Basic Configuration"
-msgstr "Configuración básica"
+msgstr "Konfigurasi Dasar"
 
 #: cps/admin.py:288
 msgid "UI Configuration"
-msgstr "Configuración de la interfaz de usuario"
+msgstr "Pengaturan UI"
 
 #: cps/admin.py:322 cps/templates/admin.html:51
-#, fuzzy
 msgid "Edit Users"
-msgstr "Editar usuarios"
+msgstr "Edit pengguna"
 
 #: cps/admin.py:366 cps/opds.py:532 cps/templates/grid.html:14
 #: cps/templates/list.html:13
 msgid "All"
-msgstr "Todo"
+msgstr "semua"
 
 #: cps/admin.py:393 cps/admin.py:1397
 msgid "User not found"
-msgstr "Usuario no encontrado"
+msgstr "Pengguna tidak ditemukan"
 
 #: cps/admin.py:407
 msgid "{} users deleted successfully"
-msgstr "{} usuarios eliminados con éxito"
+msgstr "{} pengguna berhasil dihapus"
 
 #: cps/admin.py:430 cps/templates/config_view_edit.html:133
 #: cps/templates/user_edit.html:45 cps/templates/user_table.html:81
 msgid "Show All"
-msgstr "Mostrar todo"
+msgstr "Tampilkan semua"
 
 #: cps/admin.py:451 cps/admin.py:457
 msgid "Malformed request"
-msgstr "Petición mal formulada"
+msgstr "Permintaan salah"
 
 #: cps/admin.py:469 cps/admin.py:1998
 msgid "Guest Name can't be changed"
-msgstr "El nombre de invitado no se puede cambiar"
+msgstr "Nama Tamu tidak dapat diganti"
 
 #: cps/admin.py:481
 msgid "Guest can't have this role"
-msgstr "El invitado no puede tener ese rol"
+msgstr "Tamu tidak dapat memiliki peran ini"
 
 #: cps/admin.py:493 cps/admin.py:1953
 msgid "No admin user remaining, can't remove admin role"
-msgstr "No queda ningún usuario administrador, no se puede eliminar al usuario"
+msgstr "Tidak ada pengguna admin yang tersisa, tidak dapat menghapus peran admin"
 
 #: cps/admin.py:497 cps/admin.py:511
 msgid "Value has to be true or false"
-msgstr "Valor tiene que ser verdadero o falso"
+msgstr "Nilai harus benar atau salah"
 
 #: cps/admin.py:499
 msgid "Invalid role"
-msgstr "Rol inválido"
+msgstr "Peran tidak valid"
 
 #: cps/admin.py:503
 msgid "Guest can't have this view"
-msgstr "El invitado no puede tener esta vista"
+msgstr " Tamu tidak dapat mengakses tampilan ini"
 
 #: cps/admin.py:513
 msgid "Invalid view"
-msgstr "Vista no válida"
+msgstr " Tampilan tidak valid"
 
 #: cps/admin.py:516
 msgid "Guest's Locale is determined automatically and can't be set"
-msgstr "El sitio del invitado se determina automáticamente y no puede ser cambiado"
+msgstr "Lokal Tamu ditentukan secara otomatis dan tidak dapat disetel"
 
 #: cps/admin.py:520
 msgid "No Valid Locale Given"
-msgstr "No hay un sitio válido"
+msgstr "Tidak Ada Lokal yang Valid Diberikan"
 
 #: cps/admin.py:531
 msgid "No Valid Book Language Given"
-msgstr "No se ha indicado un idioma válido para el libro"
+msgstr "Tidak Ada Bahasa Buku yang Valid Diberikan"
 
 #: cps/admin.py:533 cps/editbooks.py:442
 msgid "Parameter not found"
-msgstr "Parámetro no encontrado"
+msgstr "Parameter tidak ditemukan"
 
 #: cps/admin.py:570
 msgid "Invalid Read Column"
-msgstr "Columna de lectura no válida"
+msgstr "Kolom Baca Tidak Valid"
 
 #: cps/admin.py:576
 msgid "Invalid Restricted Column"
-msgstr "Columna restringida no válida"
+msgstr "Kolom Dibatasi Tidak Valid"
 
 #: cps/admin.py:596 cps/admin.py:1824
 msgid "Calibre-Web configuration updated"
-msgstr "Configuración de Calibre-Web actualizada"
+msgstr "Konfigurasi Calibre-Web telah diperbarui"
 
 #: cps/admin.py:608
 msgid "Do you really want to delete the Kobo Token?"
-msgstr "¿Realmente quieres borrar el Token de Kobo?"
+msgstr "Apakah Anda yakin ingin menghapus Token Kobo?"
 
 #: cps/admin.py:610
 msgid "Do you really want to delete this domain?"
-msgstr "¿Realmente deseas borrar este dominio?"
+msgstr "Apakah Anda yakin ingin menghapus domain ini?"
 
 #: cps/admin.py:612
 msgid "Do you really want to delete this user?"
-msgstr "¿Realmente quieres borrar este usuario?"
+msgstr "Apakah Anda yakin ingin menghapus pengguna ini?"
 
 #: cps/admin.py:614
 msgid "Are you sure you want to delete this shelf?"
-msgstr "¿Realmente quieres eliminar este estante?"
+msgstr "Apakah Anda yakin ingin menghapus rak ini?"
 
 #: cps/admin.py:616
-#, fuzzy
 msgid "Are you sure you want to change locales of selected user(s)?"
-msgstr "¿Realmente quieres cambiar el idioma de los usuarios seleccionados?"
+msgstr "Apakah Anda yakin ingin merubah lokalisasi untuk pengguna yang dipilih?"
 
 #: cps/admin.py:618
 msgid "Are you sure you want to change visible book languages for selected user(s)?"
-msgstr "¿Realmente quieres cambiar los idiomas visibles del libro de los usuarios seleccionados?"
+msgstr "Apakah Anda yakin ingin merubah bahasa buku yang terlihat untuk pengguna yang dipilih?"
 
 #: cps/admin.py:620
 msgid "Are you sure you want to change the selected role for the selected user(s)?"
-msgstr "¿Realmente quieres cambiar el rol seleccionado de el usuario seleccionado?"
+msgstr "Apakah Anda yakin ingin merubah peran untuk pengguna yang dipilih?"
 
 #: cps/admin.py:622
-#, fuzzy
 msgid "Are you sure you want to change the selected restrictions for the selected user(s)?"
-msgstr "¿Realmente quieres cambiar las restricciones de los usuarios seleccionados?"
+msgstr "Apakah Anda yakin ingin mengubah batasan yang dipilih untuk pengguna yang dipilih?"
 
 #: cps/admin.py:624
 msgid "Are you sure you want to change the selected visibility restrictions for the selected user(s)?"
-msgstr "¿Realmente quieres cambiar las restricciones de visibilidad de los usuarios seleccionados?"
+msgstr "Apakah Anda yakin ingin merubah batasan visibilitas untuk pengguna yang dipilih?"
 
 #: cps/admin.py:627
-#, fuzzy
 msgid "Are you sure you want to change shelf sync behavior for the selected user(s)?"
-msgstr "¿Realmente quieres cambiar el comportamiento de sincronización de estante del usuario seleccionado?"
+msgstr "Apakah Anda yakin ingin mengubah perilaku sinkronisasi rak untuk pengguna yang dipilih?"
 
 #: cps/admin.py:629
-#, fuzzy
 msgid "Are you sure you want to change Calibre library location?"
-msgstr "¿Realmente quieres cambiar la ubicación de la biblioteca Calibre?"
+msgstr "Apakah Anda yakin ingin mengubah lokasi perpustakaan Calibre?"
 
 #: cps/admin.py:631
 msgid "Calibre-Web will search for updated Covers and update Cover Thumbnails, this may take a while?"
-msgstr ""
+msgstr "Calibre-Web akan mencari Sampul yang diperbarui dan memperbarui Thumbnail Sampul, ini mungkin memakan waktu cukup lama?"
 
 #: cps/admin.py:634
 msgid "Are you sure you want delete Calibre-Web's sync database to force a full sync with your Kobo Reader?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus database sinkronisasi Calibre-Web untuk memaksakan sinkronisasi penuh dengan Kobo Reader Anda?"
 
 #: cps/admin.py:877 cps/admin.py:883 cps/admin.py:893 cps/admin.py:903
 #: cps/templates/modal_dialogs.html:29 cps/templates/user_table.html:41
 #: cps/templates/user_table.html:58
 msgid "Deny"
-msgstr "Denegar"
+msgstr "Tolak"
 
 #: cps/admin.py:879 cps/admin.py:885 cps/admin.py:895 cps/admin.py:905
 #: cps/templates/modal_dialogs.html:28 cps/templates/user_table.html:44
 #: cps/templates/user_table.html:61
 msgid "Allow"
-msgstr "Permitir"
+msgstr "Izinkan"
 
 #: cps/admin.py:920
 msgid "{} sync entries deleted"
-msgstr ""
+msgstr "{} entri sinkronisasi dihapus"
 
 #: cps/admin.py:968
 msgid "Tag not found"
-msgstr "Etiqueta no encontrada"
+msgstr "Tag tidak ditemukan"
 
 #: cps/admin.py:980
 msgid "Invalid Action"
-msgstr "Acción no válida"
+msgstr "Tindakan Tidak Valid"
 
 #: cps/admin.py:1109
 msgid "client_secrets.json Is Not Configured For Web Application"
-msgstr "client_secrets.json no está configurado para la aplicación web"
+msgstr "client_secrets.json Tidak Dikonfigurasikan Untuk Aplikasi Web"
 
 #: cps/admin.py:1154
 msgid "Logfile Location is not Valid, Please Enter Correct Path"
-msgstr "La ruta del Logfile no es válida. Por favor, Introduce la ruta correcta"
+msgstr "Lokasi Logfile tidak Valid, Harap Masukkan Jalur yang Benar"
 
 #: cps/admin.py:1160
 msgid "Access Logfile Location is not Valid, Please Enter Correct Path"
-msgstr "La ruta del Access Logfile no es válida. Por favor, Introduce la ruta correcta"
+msgstr "Akses Logfile Catatan tidak Valid, Harap Masukkan Jalur yang Benar"
 
 #: cps/admin.py:1190
 msgid "Please Enter a LDAP Provider, Port, DN and User Object Identifier"
-msgstr "Por favor, Introduce un proveedor LDAP, puerto, DN y el User Object Identifier"
+msgstr "Harap Masukkan Provider LDAP, Port, DN dan User Obect Identifier"
 
 #: cps/admin.py:1196
-#, fuzzy
 msgid "Please Enter a LDAP Service Account and Password"
-msgstr "Por favor, introduce una cuenta de servicio LDAP y su contraseña"
+msgstr "Masukkan Akun Layanan LDAP dan Kata Sandi"
 
 #: cps/admin.py:1199
 msgid "Please Enter a LDAP Service Account"
-msgstr "Por favor, introduce una cuenta de servicio LDAP"
+msgstr "Masukkan Akun Layanan LDAP"
 
 #: cps/admin.py:1204
 #, python-format
 msgid "LDAP Group Object Filter Needs to Have One \"%s\" Format Identifier"
-msgstr "LDAP Group Object Filter necesita tener un identificador de formato \"%s\""
+msgstr "Filter Objek Grup LDAP Harus Memiliki Satu Pengidentifikasi Format \"%s\""
 
 #: cps/admin.py:1206
 msgid "LDAP Group Object Filter Has Unmatched Parenthesis"
-msgstr "El LDAP Group Object Filter tiene un paréntesis diferente"
+msgstr "Filter Objek Grup LDAP Memiliki Tanda kurung yang Tak Berpasangan"
 
 #: cps/admin.py:1210
 #, python-format
 msgid "LDAP User Object Filter needs to Have One \"%s\" Format Identifier"
-msgstr "LDAP Group Object Filter necesita tener un identificador de formato \"%s\""
+msgstr "Filter Objek Pengguna LDAP harus Memiliki Satu Pengidentifikasi Format \"%s\""
 
 #: cps/admin.py:1212
 msgid "LDAP User Object Filter Has Unmatched Parenthesis"
-msgstr "El LDAP Group Object Filter tiene un paréntesis diferente"
+msgstr "Filter Objek Pengguna LDAP Memiliki Tanda kurung yang Tak Berpasangan"
 
 #: cps/admin.py:1219
 #, python-format
 msgid "LDAP Member User Filter needs to Have One \"%s\" Format Identifier"
-msgstr "El filtro de usuarios LDAP necesita tener un identificador de formato \"%s\""
+msgstr "Filter Pengguna Anggota LDAP harus Memiliki Satu Pengenal Format \"%s\""
 
 #: cps/admin.py:1221
 msgid "LDAP Member User Filter Has Unmatched Parenthesis"
-msgstr "El filtro de LDAP \"Member User\" tiene paréntesis no coincidentes"
+msgstr "Filter Pengguna Anggota LDAP Memiliki Tanda Kurung yang Tak Berpasangan"
 
 #: cps/admin.py:1228
 msgid "LDAP CACertificate, Certificate or Key Location is not Valid, Please Enter Correct Path"
-msgstr "Ubicaciones del certificado de la CA del LDAP, del certificado o de la clave no válidos. Por favor introduce la ruta correcta"
+msgstr "Lokasi LDAP Sertifikat CA, Sertifikat, atau Kunci tidak Valid, Harap Masukkan Jalur yang Benar "
 
 #: cps/admin.py:1259 cps/admin.py:1885
 msgid "Add new user"
-msgstr "Añadir un nuevo usuario"
+msgstr "Tambahkan pengguna baru"
 
 #: cps/admin.py:1268 cps/templates/admin.html:100
 msgid "Edit E-mail Server Settings"
-msgstr "Cambiar parámetros de correo"
+msgstr "Edit Pengaturan Server Email"
 
 #: cps/admin.py:1287
 msgid "Gmail Account Verification Successful"
-msgstr "Verificación de cuenta de Gmail exitosa"
+msgstr "Verifikasi Akun Gmail Berhasil"
 
 #: cps/admin.py:1306 cps/admin.py:1309 cps/admin.py:1690 cps/admin.py:1808
 #: cps/admin.py:1906 cps/admin.py:2026 cps/editbooks.py:229
@@ -302,1207 +293,1195 @@ msgstr "Verificación de cuenta de Gmail exitosa"
 #: cps/shelf.py:457 cps/tasks/convert.py:136 cps/web.py:1421
 #, python-format
 msgid "Database error: %(error)s."
-msgstr "Error en la base de datos: %(error)s."
+msgstr "Kesalahan basis data: %(error)s"
 
 #: cps/admin.py:1316
 #, python-format
 msgid "Test e-mail queued for sending to %(email)s, please check Tasks for result"
-msgstr "Puesto en cola un correo electrónico de prueba enviado a %(email)s, por favor, comprueba el resultado en Tareas"
+msgstr "Uji email diantrean untuk dikirim ke %(email), harap periksa Tasks untuk hasilnya"
 
 #: cps/admin.py:1319
 #, python-format
 msgid "There was an error sending the Test e-mail: %(res)s"
-msgstr "Ocurrió un error enviando el correo electrónico de prueba: %(res)s"
+msgstr "Terjadi kesalahan saat mengirim email tes: %(res)s"
 
 #: cps/admin.py:1321
 msgid "Please configure your e-mail address first..."
-msgstr "Por favor, configure su correo electrónico primero..."
+msgstr "Harap konfigurasikan alamat email Anda terlebih dahulu.."
 
 #: cps/admin.py:1323
 msgid "E-mail server settings updated"
-msgstr "Actualizados los ajustes del servidor de correo electrónico"
+msgstr "Setelan server email diperbarui"
 
 #: cps/admin.py:1346 cps/templates/admin.html:191
 msgid "Edit Scheduled Tasks Settings"
-msgstr ""
+msgstr "Edit Pengaturan Tugas Terjadwal"
 
 #: cps/admin.py:1358
 msgid "Invalid start time for task specified"
-msgstr ""
+msgstr "Waktu mulai tidak valid untuk tugas yang ditentukan"
 
 #: cps/admin.py:1363
 msgid "Invalid duration for task specified"
-msgstr ""
+msgstr "Durasi tidak valid untuk tugas yang ditentukan"
 
 #: cps/admin.py:1372
 msgid "Scheduled tasks settings updated"
-msgstr ""
+msgstr "Pengaturan tugas terjadwal diperbarui"
 
 #: cps/admin.py:1382 cps/admin.py:1431 cps/admin.py:2022 cps/web.py:1259
 #: cps/web.py:1320
 msgid "An unknown error occurred. Please try again later."
-msgstr "Ha ocurrido un error desconocido. Por favor vuelva a intentarlo más tarde."
+msgstr "Terjadi kesalahan yang tidak diketahui. Coba lagi nanti."
 
 #: cps/admin.py:1386
 msgid "Settings DB is not Writeable"
-msgstr ""
+msgstr "Pengaturan DB tidak dapat ditulisi"
 
 #: cps/admin.py:1416 cps/admin.py:2014
 #, python-format
 msgid "Edit User %(nick)s"
-msgstr "Editar Usuario %(nick)s"
+msgstr "Edit pengguna %(nick)s"
 
 #: cps/admin.py:1428
 #, python-format
 msgid "Password for user %(user)s reset"
-msgstr "Contraseña para el usuario %(user)s reinicializada"
+msgstr "Kata sandi untuk pengaturan ulang pengguna %(user) "
 
 #: cps/admin.py:1434 cps/web.py:1198
 msgid "Please configure the SMTP mail settings first..."
-msgstr "Configura primero los parámetros del servidor SMTP..."
+msgstr "Harap konfigurasikan pengaturan email SMTP terlebih dahulu..."
 
 #: cps/admin.py:1445
 msgid "Logfile viewer"
-msgstr "Visor del fichero de log"
+msgstr "Penampil berkas log"
 
 #: cps/admin.py:1511
 msgid "Requesting update package"
-msgstr "Solicitando paquete de actualización"
+msgstr "Meminta paket pembaruan"
 
 #: cps/admin.py:1512
 msgid "Downloading update package"
-msgstr "Descargando paquete de actualización"
+msgstr "Mengunduh paket pembaruan"
 
 #: cps/admin.py:1513
 msgid "Unzipping update package"
-msgstr "Descomprimiendo paquete de actualización"
+msgstr "Meng-unzip paket pembaruan"
 
 #: cps/admin.py:1514
 msgid "Replacing files"
-msgstr "Remplazando archivos"
+msgstr "Mengganti berkas"
 
 #: cps/admin.py:1515
 msgid "Database connections are closed"
-msgstr "Los conexiones con la base datos están cerradas"
+msgstr "Koneksi basis data ditutup"
 
 #: cps/admin.py:1516
 msgid "Stopping server"
-msgstr "Parando el servidor"
+msgstr "Menghentikan server"
 
 #: cps/admin.py:1517
 msgid "Update finished, please press okay and reload page"
-msgstr "Actualización finalizada. Por favor, pulse OK y recargue la página"
+msgstr "Pembaruan selesai, silakan tekan OK dan muat ulang halaman"
 
 #: cps/admin.py:1518 cps/admin.py:1519 cps/admin.py:1520 cps/admin.py:1521
 #: cps/admin.py:1522 cps/admin.py:1523
 msgid "Update failed:"
-msgstr "Falló la actualización:"
+msgstr "Pembaruan gagal:"
 
 #: cps/admin.py:1518 cps/updater.py:389 cps/updater.py:624 cps/updater.py:626
 msgid "HTTP Error"
-msgstr "Error HTTP"
+msgstr "Kesalahan HTTP"
 
 #: cps/admin.py:1519 cps/updater.py:391 cps/updater.py:628
 msgid "Connection error"
-msgstr "Error de conexión"
+msgstr "Kesalahan koneksi"
 
 #: cps/admin.py:1520 cps/updater.py:393 cps/updater.py:630
 msgid "Timeout while establishing connection"
-msgstr "Tiempo agotado mientras se trataba de establecer la conexión"
+msgstr "Batas waktu saat membuat koneksi"
 
 #: cps/admin.py:1521 cps/updater.py:395 cps/updater.py:632
 msgid "General error"
-msgstr "Error general"
+msgstr "Kesalahan umum"
 
 #: cps/admin.py:1522
-#, fuzzy
 msgid "Update file could not be saved in temp dir"
-msgstr "La actualización del archivo no pudo guardarse en el directorio temporal (Temp Dir)"
+msgstr "Berkas pembaruan tidak dapat disimpan di direktori temp"
 
 #: cps/admin.py:1523
 msgid "Files could not be replaced during update"
-msgstr ""
+msgstr "Berkas tidak dapat diganti selama pembaruan"
 
 #: cps/admin.py:1547
-#, fuzzy
 msgid "Failed to extract at least One LDAP User"
-msgstr "Error al crear al menos un usuario LDAP"
+msgstr "Gagal mengekstrak setidaknya Satu Pengguna LDAP"
 
 #: cps/admin.py:1592
 msgid "Failed to Create at Least One LDAP User"
-msgstr "Error al crear al menos un usuario LDAP"
+msgstr "Gagal Membuat Sedikitnya Satu Pengguna LDAP"
 
 #: cps/admin.py:1605
 #, python-format
 msgid "Error: %(ldaperror)s"
-msgstr "Error: %(ldaperror)s"
+msgstr "Kesalahan: %(ldaperror)s"
 
 #: cps/admin.py:1609
 msgid "Error: No user returned in response of LDAP server"
-msgstr "Error: el servidor LDAP no ha devuelto ningún usuario"
+msgstr "Error: Tidak ada pengguna yang dikembalikan sebagai respons dari server LDAP"
 
 #: cps/admin.py:1642
 msgid "At Least One LDAP User Not Found in Database"
-msgstr "Al menos, un usuario LDAP no se ha encontrado en la base de datos"
+msgstr "Setidaknya Satu Pengguna LDAP Tidak Ditemukan di Basis Data"
 
 #: cps/admin.py:1644
 msgid "{} User Successfully Imported"
-msgstr "{} Usuario importado con éxito"
+msgstr "{} Pengguna Berhasil Diimpor"
 
 #: cps/admin.py:1702
 msgid "DB Location is not Valid, Please Enter Correct Path"
-msgstr "La ruta de la base de datos no es válida. Por favor, Introduce la ruta correcta"
+msgstr "Lokasi Basis Data tidak Valid, Harap Masukkan Jalur yang Benar"
 
 #: cps/admin.py:1722
 msgid "DB is not Writeable"
-msgstr "La base de datos no es modificable"
+msgstr "Basis Data tidak dapat ditulisi"
 
 #: cps/admin.py:1735
 msgid "Keyfile Location is not Valid, Please Enter Correct Path"
-msgstr "La ruta del Keyfile no es válida, por favor, Introduce la ruta correcta"
+msgstr "Lokasi keyfile tidak Valid, Harap Masukkan Jalur yang Benar "
 
 #: cps/admin.py:1739
 msgid "Certfile Location is not Valid, Please Enter Correct Path"
-msgstr "La ruta de Certfile no es válida, por favor, Introduce la ruta correcta"
+msgstr "Lokasi Sertifikat tidak Valid, Harap Masukkan Jalur yang Benar "
 
 #: cps/admin.py:1847
-#, fuzzy
 msgid "Database Settings updated"
-msgstr "Actualizados los ajustes del servidor de correo electrónico"
+msgstr "Pengaturan Basis Data diperbarui"
 
 #: cps/admin.py:1855
-#, fuzzy
 msgid "Database Configuration"
-msgstr "Configuración de la base de datos"
+msgstr "Konfigurasi Basis Data"
 
 #: cps/admin.py:1871 cps/web.py:1233
 msgid "Please fill out all fields!"
-msgstr "¡Por favor, rellena todos los campos!"
+msgstr "Harap masukkan seluruh isian!"
 
 #: cps/admin.py:1879
 msgid "E-mail is not from valid domain"
-msgstr "El correo electrónico no tiene un dominio válido"
+msgstr "Email bukan dari domain yang valid"
 
 #: cps/admin.py:1896
 #, python-format
 msgid "User '%(user)s' created"
-msgstr "Usuario '%(user)s' creado"
+msgstr "Pengguna '%(user)s' telah dibuat"
 
 #: cps/admin.py:1902
-#, fuzzy
 msgid "Found an existing account for this e-mail address or name."
-msgstr "Encontrada una cuenta existente para este correo electrónico o nombre de usuario."
+msgstr "Ditemukan akun yang ada untuk alamat email atau nama ini."
 
 #: cps/admin.py:1932
 #, python-format
 msgid "User '%(nick)s' deleted"
-msgstr "Usuario '%(nick)s' eliminado"
+msgstr "Pengguna '%(nick)s' telah dihapus"
 
 #: cps/admin.py:1934 cps/admin.py:1935
 msgid "Can't delete Guest User"
-msgstr "No puedes borrar al Usuario Invitado"
+msgstr "Tidak dapat menghapus Pengguna Tamu"
 
 #: cps/admin.py:1938
 msgid "No admin user remaining, can't delete user"
-msgstr "No queda ningún usuario administrador, no se puede borrar al usuario"
+msgstr "Tidak ada pengguna admin tersisa, tidak dapat menghapus pengguna"
 
 #: cps/admin.py:1992 cps/web.py:1371
 msgid "E-Mail Address can't be empty and has to be a valid E-Mail"
-msgstr ""
+msgstr "Alamat email tidak boleh kosong dan harus berupa email yang valid"
 
 #: cps/admin.py:2018
 #, python-format
 msgid "User '%(nick)s' updated"
-msgstr "Usuario '%(nick)s'  actualizado"
+msgstr "Pengguna '%(nick)s' diperbarui"
 
 #: cps/converter.py:31
 msgid "not installed"
-msgstr "no instalado"
+msgstr "belum dipasang"
 
 #: cps/converter.py:32
 msgid "Execution permissions missing"
-msgstr "Faltan permisos de ejecución"
+msgstr "Izin eksekusi hilang"
 
 #: cps/db.py:728 cps/search.py:137 cps/web.py:723
-#, fuzzy, python-format
+#, python-format
 msgid "Custom Column No.%(column)d does not exist in calibre database"
-msgstr "Columna personalizada No.%(column)d no existe en la base de datos calibre"
+msgstr "Kolom Kustom No.%(column)d tidak ada di basis data kaliber"
 
 #: cps/db.py:971 cps/templates/config_edit.html:204
 #: cps/templates/config_view_edit.html:62 cps/templates/email_edit.html:41
 #: cps/web.py:550 cps/web.py:584 cps/web.py:659 cps/web.py:684 cps/web.py:965
 #: cps/web.py:995 cps/web.py:1031 cps/web.py:1059 cps/web.py:1098
 msgid "None"
-msgstr "Ninguno"
+msgstr "Tidak ada"
 
 #: cps/editbooks.py:110 cps/editbooks.py:895 cps/web.py:517 cps/web.py:1462
 #: cps/web.py:1504 cps/web.py:1549
 msgid "Oops! Selected book title is unavailable. File does not exist or is not accessible"
-msgstr "oh, oh, el libro seleccionado no está disponible. El archivo no existe o no es accesible"
+msgstr "Ups! Judul buku yang dipilih tidak tersedia. File tidak ada atau tidak dapat diakses"
 
 #: cps/editbooks.py:154 cps/editbooks.py:1221
 msgid "User has no rights to upload cover"
-msgstr ""
+msgstr "Pengguna tidak berhak mengganti sampul"
 
 #: cps/editbooks.py:174 cps/editbooks.py:716
 msgid "Identifiers are not Case Sensitive, Overwriting Old Identifier"
-msgstr "Los identificadores no distinguen entre mayúsculas y minúsculas, sobrescribiendo el identificador antiguo"
+msgstr "IDは大文字小文字を区別しません。元のIDを上書きします"
 
 #: cps/editbooks.py:216
 msgid "Metadata successfully updated"
-msgstr "Metadatos actualizados con éxito"
+msgstr "Metadata berhasil diperbarui"
 
 #: cps/editbooks.py:234
 msgid "Error editing book: {}"
-msgstr ""
+msgstr "Kesalahan pengeditan buku: {}"
 
 #: cps/editbooks.py:291
 #, python-format
 msgid "File %(file)s uploaded"
-msgstr "El fichero %(file)s ha sido subido"
+msgstr "Berkas %(file)s telah diunggah"
 
 #: cps/editbooks.py:318
 msgid "Source or destination format for conversion missing"
-msgstr "Falta la fuente o el formato de destino para la conversión"
+msgstr "Format sumber atau tujuan untuk konversi tidak ada"
 
 #: cps/editbooks.py:326
 #, python-format
 msgid "Book successfully queued for converting to %(book_format)s"
-msgstr "Libro puesto a la cola para su conversión a %(book_format)s"
+msgstr "Buku berhasil diantrekan untuk dikonversi ke %(book_format)s"
 
 #: cps/editbooks.py:330
 #, python-format
 msgid "There was an error converting this book: %(res)s"
-msgstr "Ocurrió un error al convertir este libro: %(res)s"
+msgstr "Terjadi kesalahan saat mengonversi buku ini: %(res)s"
 
 #: cps/editbooks.py:635
 msgid "Uploaded book probably exists in the library, consider to change before upload new: "
-msgstr "El libro cargado probablemente existe en la biblioteca, considera cambiarlo antes de subirlo de nuevo: "
+msgstr "Buku yang diunggah mungkin ada di perpustakaan, pertimbangkan untuk mengubahnya sebelum mengunggah yang baru: "
 
 #: cps/editbooks.py:690 cps/editbooks.py:1015
-#, fuzzy, python-format
+#, python-format
 msgid "'%(langname)s' is not a valid language"
-msgstr "%(langname)s no es un idioma válido"
+msgstr "'%(langname)s' bukan bahasa yang valid"
 
 #: cps/editbooks.py:728 cps/editbooks.py:1162
 #, python-format
 msgid "File extension '%(ext)s' is not allowed to be uploaded to this server"
-msgstr "No se permite subir archivos con la extensión '%(ext)s' a este servidor"
+msgstr "Ekstensi file '%(ext)s' tidak diizinkan untuk diunggah ke server ini"
 
 #: cps/editbooks.py:732 cps/editbooks.py:1166
 msgid "File to be uploaded must have an extension"
-msgstr "El archivo a subir debe tener una extensión"
+msgstr "File yang akan diunggah harus memiliki ekstensi"
 
 #: cps/editbooks.py:740
 #, python-format
 msgid "File %(filename)s could not saved to temp dir"
-msgstr "El archivo %(filename)s no pudo salvarse en el directorio temporal (Temp Dir)"
+msgstr "Berkas %(filename)s tidak dapat disimpan ke direktori temp"
 
 #: cps/editbooks.py:760
 #, python-format
 msgid "Failed to Move Cover File %(file)s: %(error)s"
-msgstr "Fallo al mover el archivo de cubierta %(file)s: %(error)s"
+msgstr "Gagal Memindahkan Berkas Sampul %(file)s: %(error)s"
 
 #: cps/editbooks.py:817 cps/editbooks.py:819
 msgid "Book Format Successfully Deleted"
-msgstr "Formato de libro eliminado con éxito"
+msgstr "Format Buku Berhasil Dihapus"
 
 #: cps/editbooks.py:826 cps/editbooks.py:828
 msgid "Book Successfully Deleted"
-msgstr "Libro eliminado con éxito"
+msgstr "Buku Berhasil Dihapus"
 
 #: cps/editbooks.py:880
 msgid "You are missing permissions to delete books"
-msgstr ""
+msgstr "Anda tidak memiliki izin untuk menghapus buku"
 
 #: cps/editbooks.py:930
 msgid "edit metadata"
-msgstr "editar metadatos"
+msgstr "edit metadata"
 
 #: cps/editbooks.py:979
 #, python-format
 msgid "%(seriesindex)s is not a valid number, skipping"
-msgstr "%(seriesindex) no es un número válido, saltando"
+msgstr "%(seriesindex)s dilewati karena bukan angka yang valid"
 
 #: cps/editbooks.py:1157
 msgid "User has no rights to upload additional file formats"
-msgstr ""
+msgstr "Pengguna tidak memiliki izin untuk mengunggah format file tambahan"
 
 #: cps/editbooks.py:1178
 #, python-format
 msgid "Failed to create path %(path)s (Permission denied)."
-msgstr "Fallo al crear la ruta %(path)s (permiso denegado)"
+msgstr "Gagal membuat jalur %(path)s (Izin ditolak)."
 
 #: cps/editbooks.py:1183
 #, python-format
 msgid "Failed to store file %(file)s."
-msgstr "Fallo al guardar el archivo %(file)s."
+msgstr "Gagal menyimpan file %(file)s."
 
 #: cps/editbooks.py:1206
 #, python-format
 msgid "File format %(ext)s added to %(book)s"
-msgstr "Archivo con formato %(ext)s añadido a %(book)s"
+msgstr "Format file %(ext)s ditambahkan ke %(book)s"
 
 #: cps/gdrive.py:58
 msgid "Google Drive setup not completed, try to deactivate and activate Google Drive again"
-msgstr "La configuración de Google Drive no se ha completado, intente desactivar y activar Google Drive nuevamente"
+msgstr "Pengaturan Google Drive belum selesai, coba nonaktifkan dan aktifkan kembali Google Drive"
 
 #: cps/gdrive.py:95
 msgid "Callback domain is not verified, please follow steps to verify domain in google developer console"
-msgstr "El dominio Callback no se ha verificado, siga los pasos para verificarlo en la consola de desarrollador de Google"
+msgstr "Domain panggilan balik tidak diverifikasi, ikuti langkah-langkah untuk memverifikasi domain di konsol pengembang google"
 
 #: cps/helper.py:80
 #, python-format
 msgid "%(format)s format not found for book id: %(book)d"
-msgstr "%(format)s formato no encontrado para el id del libro: %(book)d"
+msgstr "%(format)s format tidak ditemukan untuk id buku: %(book)d"
 
 #: cps/helper.py:87 cps/tasks/convert.py:75
 #, python-format
 msgid "%(format)s not found on Google Drive: %(fn)s"
-msgstr "%(format)s no encontrado en Google Drive: %(fn)s"
+msgstr "%(format)s tidak ditemukan di Google Drive: %(fn)s"
 
 #: cps/helper.py:92
 #, python-format
 msgid "%(format)s not found: %(fn)s"
-msgstr "%(format)s no encontrado: %(fn)s"
+msgstr "%(format)s tidak ditemukan: %(fn)s"
 
 #: cps/helper.py:97 cps/helper.py:226 cps/templates/detail.html:42
 #: cps/templates/detail.html:46
-#, fuzzy
 msgid "Send to E-Reader"
-msgstr "Enviar al Kindle"
+msgstr "Kirim ke E-Reader"
 
 #: cps/helper.py:98 cps/helper.py:116 cps/helper.py:228
 msgid "This e-mail has been sent via Calibre-Web."
-msgstr "Este correo electrónico ha sido enviado usando Calibre-Web."
+msgstr "Email ini telah dikirim melalui Calibre-Web."
 
 #: cps/helper.py:114
 msgid "Calibre-Web test e-mail"
-msgstr "Correo de prueba de Calibre-Web"
+msgstr "Email tes Calibre-Web"
 
 #: cps/helper.py:115
 msgid "Test e-mail"
-msgstr "Comprobar correo electrónico"
+msgstr "Email tes"
 
 #: cps/helper.py:132
 msgid "Get Started with Calibre-Web"
-msgstr "Primeros pasos con Calibre-Web"
+msgstr "Memulai dengan Calibre-Web"
 
 #: cps/helper.py:137
 #, python-format
 msgid "Registration e-mail for user: %(name)s"
-msgstr "Correo electrónico de registro para el usuario: %(name)s"
+msgstr "Email pendaftaran untuk pengguna: %(name)s"
 
 #: cps/helper.py:148 cps/helper.py:154
-#, fuzzy, python-format
+#, python-format
 msgid "Convert %(orig)s to %(format)s and send to E-Reader"
-msgstr "Convertir %(orig)s a %(format)s y enviar al Kindle"
+msgstr "Ubah %(orig)s menjadi %(format)s dan kirim ke E-Reader"
 
 #: cps/helper.py:173 cps/helper.py:177 cps/helper.py:181 cps/helper.py:185
-#, fuzzy, python-format
+#, python-format
 msgid "Send %(format)s to E-Reader"
-msgstr "Enviado %(format)s al Kindle"
+msgstr "Kirim %(format)s ke E-Reader"
 
 #: cps/helper.py:225 cps/tasks/convert.py:92
-#, fuzzy, python-format
+#, python-format
 msgid "%(book)s send to E-Reader"
-msgstr "Enviar al Kindle"
+msgstr "%%(buku)s telah dikirim ke E-Reader"
 
 #: cps/helper.py:230
 msgid "The requested file could not be read. Maybe wrong permissions?"
-msgstr "El archivo solicitado no puede ser leído. ¿Quizás existen problemas con los permisos?"
+msgstr "File yang diminta tidak dapat dibaca. Mungkin izinnya salah?"
 
 #: cps/helper.py:345
 msgid "Read status could not set: {}"
-msgstr ""
+msgstr "Status baca tidak bisa disetel: {}"
 
 #: cps/helper.py:368
 #, python-format
 msgid "Deleting bookfolder for book %(id)s failed, path has subfolders: %(path)s"
-msgstr "Fallo al intentar borrar la carpeta del libro %(id)s, la ruta tiene subcarpetas: %(path)s"
+msgstr "Menghapus folder buku untuk buku %(id)s gagal, jalur memiliki subfolder: %(path)s"
 
 #: cps/helper.py:374
 #, python-format
 msgid "Deleting book %(id)s failed: %(message)s"
-msgstr "El eliminado del libro %(id)s falló: %(message)s"
+msgstr "Gagal menghapus buku %(id)s: %(message)s"
 
 #: cps/helper.py:385
-#, fuzzy, python-format
+#, python-format
 msgid "Deleting book %(id)s from database only, book path in database not valid: %(path)s"
-msgstr "Borrando el libro %(id)s, la ruta del libro es no válida: %(path)s"
+msgstr "Menghapus buku %(id)s hanya dari basis data, jalur buku di basis data tidak valid: %(path)s"
 
 #: cps/helper.py:450
-#, fuzzy, python-format
+#, python-format
 msgid "Rename author from: '%(src)s' to '%(dest)s' failed with error: %(error)s"
-msgstr "El renombrado del título de: '%(src)s' a '%(dest)s' falló con el error: %(error)s"
+msgstr "Ganti nama pengarang dari: '%(src)s' menjadi '%(dest)s' gagal dengan kesalahan: %(error)s"
 
 #: cps/helper.py:522 cps/helper.py:531
 #, python-format
 msgid "File %(file)s not found on Google Drive"
-msgstr "Fichero %(file)s no encontrado en Google Drive"
+msgstr "Berkas %(file)s tidak ditemukan di Google Drive"
 
 #: cps/helper.py:565
 #, python-format
 msgid "Rename title from: '%(src)s' to '%(dest)s' failed with error: %(error)s"
-msgstr "El renombrado del título de: '%(src)s' a '%(dest)s' falló con el error: %(error)s"
+msgstr "Ganti nama judul dari: '%(src)s' menjadi '%(dest)s' gagal dengan kesalahan: %(error)s"
 
 #: cps/helper.py:585
 msgid "Error in rename file in path: {}"
-msgstr ""
+msgstr "Kesalahan dalam mengganti nama berkas di jalur: {}"
 
 #: cps/helper.py:603
 #, python-format
 msgid "Book path %(path)s not found on Google Drive"
-msgstr "La ruta %(path)s del libro no fue encontrada en Google Drive"
+msgstr "Jalur buku %(path)s tidak ditemukan di Google Drive"
 
 #: cps/helper.py:644 cps/web.py:1416
-#, fuzzy
 msgid "Found an existing account for this e-mail address"
-msgstr "Encontrada una cuenta existente para esa dirección de correo electrónico"
+msgstr "Ditemukan akun yang ada untuk alamat email ini"
 
 #: cps/helper.py:652
 msgid "This username is already taken"
-msgstr "Este nombre de usuario ya está en uso"
+msgstr "Nama pengguna ini sudah digunakan"
 
 #: cps/helper.py:664
 msgid "Invalid e-mail address format"
-msgstr "Dirección de correo no válida"
+msgstr "Format alamat email tidak valid"
 
 #: cps/helper.py:815
 msgid "Python module 'advocate' is not installed but is needed for cover uploads"
-msgstr ""
+msgstr "Modul 'advocate' Python tidak diinstal tetapi diperlukan untuk unggahan sampul"
 
 #: cps/helper.py:825
 msgid "Error Downloading Cover"
-msgstr "Error al descargar la cubierta"
+msgstr "Kesalahan Mengunduh Sampul"
 
 #: cps/helper.py:828
 msgid "Cover Format Error"
-msgstr "Error en el formato de la cubierta"
+msgstr "Kesalahan Format Sampul"
 
 #: cps/helper.py:831
 msgid "You are not allowed to access localhost or the local network for cover uploads"
-msgstr ""
+msgstr "Anda tidak diizinkan mengakses localhost atau jaringan lokal untuk unggahan sampul"
 
 #: cps/helper.py:841
 msgid "Failed to create path for cover"
-msgstr "Error al crear una ruta para la cubierta"
+msgstr "Gagal membuat jalur untuk sampul"
 
 #: cps/helper.py:857
 msgid "Cover-file is not a valid image file, or could not be stored"
-msgstr "El archivo de cubierta no es una imágen válida"
+msgstr "File sampul bukan file gambar yang valid, atau tidak dapat disimpan"
 
 #: cps/helper.py:868
 msgid "Only jpg/jpeg/png/webp/bmp files are supported as coverfile"
-msgstr "Sólo se admiten como portada los archivos jpg/jpeg/png/webp/bmp"
+msgstr "Hanya file jpg/jpeg/png/webp/bmp yang didukung sebagai file sampul"
 
 #: cps/helper.py:880
 msgid "Invalid cover file content"
-msgstr ""
+msgstr "Konten file sampul tidak valid"
 
 #: cps/helper.py:884
 msgid "Only jpg/jpeg files are supported as coverfile"
-msgstr "Sólo se admiten como portada los archivos jpg/jpeg"
+msgstr "Hanya file jpg/jpeg yang didukung sebagai file sampul"
 
 #: cps/helper.py:936
 msgid "Unrar binary file not found"
-msgstr "No se encuentra el archivo binario UnRar"
+msgstr "File biner unrar tidak ditemukan"
 
 #: cps/helper.py:947
 #, fuzzy
 msgid "Error executing UnRar"
-msgstr "Error ejecutando UnRar"
+msgstr "Kesalahan saat menjalankan UnRar"
 
 #: cps/helper.py:1040
 #, fuzzy
 msgid "Cover"
-msgstr "Descubrir"
+msgstr "Sampul"
 
 #: cps/helper.py:1042 cps/templates/admin.html:211
 msgid "Queue all books for metadata backup"
-msgstr ""
+msgstr "Antrian semua buku untuk cadangan metadata"
 
 #: cps/kobo_auth.py:89
-#, fuzzy
 msgid "Please access Calibre-Web from non localhost to get valid api_endpoint for kobo device"
-msgstr "Por favor, accede a calibre-web desde una ubicación que no sea localhost para obtener una api_endpoint válida para tu dispositivo Kobo"
+msgstr "Mohon akses calibre-web dari non localhost untuk mendapatkan api_endpoint yang valid untuk perangkat kobo"
 
 #: cps/kobo_auth.py:115
 msgid "Kobo Setup"
-msgstr "Configuración de Kobo"
+msgstr "Pengaturan Kobo"
 
 #: cps/oauth_bb.py:77
 #, python-format
 msgid "Register with %(provider)s"
-msgstr "Registrado con %(provider)s"
+msgstr "Daftar dengan %(provider)s"
 
 #: cps/oauth_bb.py:138 cps/remotelogin.py:130 cps/web.py:1291
 #, python-format
 msgid "you are now logged in as: '%(nickname)s'"
-msgstr "has iniciado sesión como : '%(nickname)s'"
+msgstr "Anda sekarang login sebagai: %(nickname)s"
 
 #: cps/oauth_bb.py:148
 #, python-format
 msgid "Link to %(oauth)s Succeeded"
-msgstr "El enlace a %(oauth)s se ha realizado con éxito"
+msgstr "Tautan ke %(oauth)s Berhasil"
 
 #: cps/oauth_bb.py:155
 msgid "Login failed, No User Linked With OAuth Account"
-msgstr "Acceso erróneo, ningún usuario enlazado con la cuenta OAuth"
+msgstr "Login gagal, Tidak Ada Pengguna yang Tertaut Dengan Akun OAuth"
 
 #: cps/oauth_bb.py:197
 #, python-format
 msgid "Unlink to %(oauth)s Succeeded"
-msgstr "%(oauth)s desenlazado con éxito"
+msgstr "Membatalkan tautan ke %(oauth)s Berhasil"
 
 #: cps/oauth_bb.py:202
 #, python-format
 msgid "Unlink to %(oauth)s Failed"
-msgstr "Error al desenlazar %(oauth)s"
+msgstr "Membatalkan tautan ke %(oauth)s Gagal"
 
 #: cps/oauth_bb.py:205
 #, python-format
 msgid "Not Linked to %(oauth)s"
-msgstr "No vinculado con %(oauth)s"
+msgstr "Tidak Tertaut ke %(oauth)s"
 
 #: cps/oauth_bb.py:261
 msgid "Failed to log in with GitHub."
-msgstr "Error al iniciar sesión con GitHub."
+msgstr "Gagal masuk dengan GitHub."
 
 #: cps/oauth_bb.py:267
 msgid "Failed to fetch user info from GitHub."
-msgstr "Error al obtener la información del usuario de GitHub."
+msgstr "Gagal mengambil info pengguna dari GitHub."
 
 #: cps/oauth_bb.py:279
 msgid "Failed to log in with Google."
-msgstr "Error al iniciar sesión con Google."
+msgstr "Gagal masuk dengan Google."
 
 #: cps/oauth_bb.py:285
 msgid "Failed to fetch user info from Google."
-msgstr "Error al obtener información del usuario de Google."
+msgstr "Gagal mengambil info pengguna dari Google."
 
 #: cps/oauth_bb.py:332
 msgid "GitHub Oauth error, please retry later."
-msgstr "Error en GitHub Oauth, por favor, vuelva a intentarlo más tarde."
+msgstr "Kesalahan GitHub Oauth, silakan coba lagi nanti."
 
 #: cps/oauth_bb.py:335
 msgid "GitHub Oauth error: {}"
-msgstr "Error GitHub Oauth {}"
+msgstr "Kesalahan GitHub OAuth: {}"
 
 #: cps/oauth_bb.py:356
 msgid "Google Oauth error, please retry later."
-msgstr "Error en Google Oauth, por favor vuelva a intentarlo más tarde."
+msgstr "Kesalahan Google Oauth, harap coba lagi nanti."
 
 #: cps/oauth_bb.py:359
 msgid "Google Oauth error: {}"
-msgstr "Error Google Oauth {}"
+msgstr "Kesalahan Google OAuth: {}"
 
 #: cps/opds.py:287
 msgid "{} Stars"
-msgstr "{} Estrellas"
+msgstr "{}★"
 
 #: cps/remotelogin.py:62 cps/templates/layout.html:67
 #: cps/templates/layout.html:101 cps/templates/login.html:4
 #: cps/templates/login.html:21 cps/web.py:1340
 msgid "Login"
-msgstr "Inicio de sesión"
+msgstr "Masuk"
 
 #: cps/remotelogin.py:74 cps/remotelogin.py:108
 msgid "Token not found"
-msgstr "Token no encontrado"
+msgstr "Token tidak ditemukan"
 
 #: cps/remotelogin.py:83 cps/remotelogin.py:116
 msgid "Token has expired"
-msgstr "El token ha expirado"
+msgstr "Token telah kedaluwarsa"
 
 #: cps/remotelogin.py:92
 msgid "Success! Please return to your device"
-msgstr "¡Correcto! Por favor regrese a su dispositivo"
+msgstr "Berhasil! Silakan kembali ke perangkat Anda"
 
 #: cps/render_template.py:40 cps/web.py:406
 msgid "Books"
-msgstr "Libros"
+msgstr "Buku"
 
 #: cps/render_template.py:42
 msgid "Show recent books"
-msgstr "Mostrar libros recientes"
+msgstr "Tampilkan buku terbaru"
 
 #: cps/render_template.py:43 cps/templates/index.xml:25
 msgid "Hot Books"
-msgstr "Libros populares"
+msgstr "Buku Populer"
 
 #: cps/render_template.py:45
 msgid "Show Hot Books"
-msgstr "Mostrar libros populares"
+msgstr "Tampilkan Buku Populer"
 
 #: cps/render_template.py:47 cps/render_template.py:52
 msgid "Downloaded Books"
-msgstr "Libros Descargados"
+msgstr "Buku yang Diunduh"
 
 #: cps/render_template.py:49 cps/render_template.py:54
 #: cps/templates/user_table.html:167
 msgid "Show Downloaded Books"
-msgstr "Mostrar Libros Descargados"
+msgstr "Tampilkan Buku yang Diunduh"
 
 #: cps/render_template.py:57 cps/templates/index.xml:32 cps/web.py:421
 msgid "Top Rated Books"
-msgstr "Libros mejor valorados"
+msgstr "Buku Berperingkat Teratas"
 
 #: cps/render_template.py:59 cps/templates/user_table.html:161
 msgid "Show Top Rated Books"
-msgstr "Mostrar libros mejor valorados"
+msgstr "Tampilkan Buku Berperingkat Teratas"
 
 #: cps/render_template.py:60 cps/templates/index.xml:54
 #: cps/templates/index.xml:58 cps/web.py:742
 msgid "Read Books"
-msgstr "Libros leídos"
+msgstr "Buku Telah Dibaca"
 
 #: cps/render_template.py:62
 msgid "Show read and unread"
-msgstr "Mostrar leídos y no leídos"
+msgstr "Tampilkan sudah dibaca dan belum dibaca"
 
 #: cps/render_template.py:64 cps/templates/index.xml:61
 #: cps/templates/index.xml:65 cps/web.py:745
 msgid "Unread Books"
-msgstr "Libros no leídos"
+msgstr "Buku yang Belum Dibaca"
 
 #: cps/render_template.py:66
 msgid "Show unread"
-msgstr "Mostrar no leído"
+msgstr "Tampilkan belum dibaca"
 
 #: cps/render_template.py:67
 msgid "Discover"
-msgstr "Descubrir"
+msgstr "Temukan"
 
 #: cps/render_template.py:69 cps/templates/index.xml:50
 #: cps/templates/user_table.html:162
 msgid "Show Random Books"
-msgstr "Mostrar libros al azar"
+msgstr "Tampilkan Buku Acak"
 
 #: cps/render_template.py:70 cps/templates/book_table.html:67
 #: cps/templates/index.xml:83 cps/web.py:1102
 msgid "Categories"
-msgstr "Categorías"
+msgstr "Kategori"
 
 #: cps/render_template.py:72 cps/templates/user_table.html:158
 msgid "Show category selection"
-msgstr "Mostrar selección de categorías"
+msgstr "Tampilkan pilihan kategori"
 
 #: cps/render_template.py:73 cps/templates/book_edit.html:91
 #: cps/templates/book_table.html:68 cps/templates/index.xml:90
 #: cps/templates/search_form.html:69 cps/web.py:998 cps/web.py:1005
 msgid "Series"
-msgstr "Series"
+msgstr "Seri"
 
 #: cps/render_template.py:75 cps/templates/user_table.html:157
 msgid "Show series selection"
-msgstr "Mostrar selección de series"
+msgstr "Tampilkan pilihan seri"
 
 #: cps/render_template.py:76 cps/templates/book_table.html:66
 #: cps/templates/index.xml:69
 msgid "Authors"
-msgstr "Autores"
+msgstr "Penulis"
 
 #: cps/render_template.py:78 cps/templates/user_table.html:160
 msgid "Show author selection"
-msgstr "Mostrar selección de autores"
+msgstr "Tampilkan pilihan penulis"
 
 #: cps/render_template.py:80 cps/templates/book_table.html:72
 #: cps/templates/index.xml:76 cps/web.py:969
 msgid "Publishers"
-msgstr "Editores"
+msgstr "Penerbit"
 
 #: cps/render_template.py:82 cps/templates/user_table.html:163
 msgid "Show publisher selection"
-msgstr "Mostrar selección de editores"
+msgstr "Tampilkan pilihan penerbit"
 
 #: cps/render_template.py:83 cps/templates/book_table.html:70
 #: cps/templates/index.xml:97 cps/templates/search_form.html:107
 #: cps/web.py:1074
 msgid "Languages"
-msgstr "Idiomas"
+msgstr "Bahasa"
 
 #: cps/render_template.py:86 cps/templates/user_table.html:155
 msgid "Show language selection"
-msgstr "Mostrar selección de idiomas"
+msgstr "Tampilkan pilihan bahasa"
 
 #: cps/render_template.py:87 cps/templates/index.xml:104
 msgid "Ratings"
-msgstr "Calificaciones"
+msgstr "Peringkat"
 
 #: cps/render_template.py:89 cps/templates/user_table.html:164
 msgid "Show ratings selection"
-msgstr "Mostrar selección de calificaciones"
+msgstr "Tampilkan pilihan peringkat"
 
 #: cps/render_template.py:90 cps/templates/index.xml:112
 msgid "File formats"
-msgstr "Formatos de archivo"
+msgstr "Format file"
 
 #: cps/render_template.py:92 cps/templates/user_table.html:165
 msgid "Show file formats selection"
-msgstr "Mostrar selección de formatos de archivo"
+msgstr "Tampilkan pilihan format file"
 
 #: cps/render_template.py:94 cps/web.py:768
 msgid "Archived Books"
-msgstr "Libros archivados"
+msgstr "Buku yang Diarsipkan"
 
 #: cps/render_template.py:96 cps/templates/user_table.html:166
 msgid "Show archived books"
-msgstr "Mostrar libros archivados"
+msgstr "Tampilkan buku yang diarsipkan"
 
 #: cps/render_template.py:99 cps/web.py:799
 msgid "Books List"
-msgstr "Lista de Libros"
+msgstr "Daftar Buku"
 
 #: cps/render_template.py:101 cps/templates/user_table.html:168
 msgid "Show Books List"
-msgstr "Mostrar Lista de Libros"
+msgstr "Tampilkan Daftar Buku"
 
 #: cps/search.py:48 cps/search.py:392 cps/templates/book_edit.html:236
 #: cps/templates/feed.xml:33 cps/templates/index.xml:11
 #: cps/templates/layout.html:46 cps/templates/layout.html:49
 #: cps/templates/search_form.html:226
 msgid "Search"
-msgstr "Buscar"
+msgstr "Telusuri"
 
 #: cps/search.py:188
 msgid "Published after "
-msgstr "Publicado después de "
+msgstr "Terbit setelah "
 
 #: cps/search.py:195
 msgid "Published before "
-msgstr "Publicado antes de "
+msgstr "Terbit sebelum "
 
 #: cps/search.py:217
 #, python-format
 msgid "Rating <= %(rating)s"
-msgstr "Calificación <= %(rating)s"
+msgstr "Peringkat ≤ %(rating)s"
 
 #: cps/search.py:219
 #, python-format
 msgid "Rating >= %(rating)s"
-msgstr "Calificación >= %(rating)s"
+msgstr "Peringkat ≥ %(rating)s"
 
 #: cps/search.py:221
 #, python-format
 msgid "Read Status = %(status)s"
-msgstr "Estado de lectura = $(status)s"
+msgstr "Status Baca = %(status)s"
 
 #: cps/search.py:323
 msgid "Error on search for custom columns, please restart Calibre-Web"
-msgstr "Error en la búsqueda de columnas personalizadas, por favor reinicia Calibre-Web"
+msgstr "Terjadi kesalahan saat mencari kolom khusus, harap mulai ulang Calibre-Web"
 
 #: cps/search.py:342 cps/search.py:374 cps/templates/layout.html:57
 msgid "Advanced Search"
-msgstr "Búsqueda avanzada"
+msgstr "Penelusuran Lanjutan"
 
 #: cps/shelf.py:49 cps/shelf.py:103
 msgid "Invalid shelf specified"
-msgstr "Estantería especificada no válida"
+msgstr "Rak yang ditentukan tidak valid"
 
 #: cps/shelf.py:55
-#, fuzzy
 msgid "Sorry you are not allowed to add a book to that shelf"
-msgstr "Lo sentimos, no tiene permisos para agregar un libro al estante: %(shelfname)s"
+msgstr "Maaf Anda tidak diperbolehkan menambahkan buku ke rak: %(shelfname)s"
 
 #: cps/shelf.py:64
 #, python-format
 msgid "Book is already part of the shelf: %(shelfname)s"
-msgstr "El libro ya forma parte del estante: %(shelfname)s"
+msgstr "Buku sudah menjadi bagian dari rak: %(shelfname)s"
 
 #: cps/shelf.py:89
 #, python-format
 msgid "Book has been added to shelf: %(sname)s"
-msgstr "El libro fue agregado a el estante: %(sname)s"
+msgstr "Buku telah ditambahkan ke rak: %(sname)s"
 
 #: cps/shelf.py:108
 msgid "You are not allowed to add a book to the shelf"
-msgstr ""
+msgstr "Anda tidak diperbolehkan menambahkan buku ke rak: %(name)s"
 
 #: cps/shelf.py:126
 #, python-format
 msgid "Books are already part of the shelf: %(name)s"
-msgstr "Los libros ya forman parte del estante: %(name)s"
+msgstr "Buku sudah menjadi bagian dari rak: %(name)s"
 
 #: cps/shelf.py:138
 #, python-format
 msgid "Books have been added to shelf: %(sname)s"
-msgstr "Los libros han sido añadidos al estante: %(sname)s"
+msgstr "Buku telah ditambahkan ke rak: %(sname)s"
 
 #: cps/shelf.py:145
 #, python-format
 msgid "Could not add books to shelf: %(sname)s"
-msgstr "No se pudieron agregar libros al estante: %(sname)s"
+msgstr "Tidak dapat menambahkan buku ke rak: %(sname)s"
 
 #: cps/shelf.py:191
 #, python-format
 msgid "Book has been removed from shelf: %(sname)s"
-msgstr "El libro fue eliminado del estante: %(sname)s"
+msgstr "Buku telah dihapus dari rak: %(sname)s"
 
 #: cps/shelf.py:200
 msgid "Sorry you are not allowed to remove a book from this shelf"
-msgstr ""
+msgstr "Maaf Anda tidak diizinkan untuk menghapus buku dari rak ini: %(sname)s"
 
 #: cps/shelf.py:210 cps/templates/layout.html:157
 msgid "Create a Shelf"
-msgstr "Crear un estante"
+msgstr "Buat Rak"
 
 #: cps/shelf.py:218
-#, fuzzy
 msgid "Sorry you are not allowed to edit this shelf"
-msgstr "Lo siento, no tiene permiso para eliminar un libro del estante: %(sname)s"
+msgstr "Maaf, Anda tidak diizinkan mengedit rak ini"
 
 #: cps/shelf.py:220
 msgid "Edit a shelf"
-msgstr "Editar un estante"
+msgstr "Edit Rak"
 
 #: cps/shelf.py:229
 msgid "Error deleting Shelf"
-msgstr ""
+msgstr "Kesalahan menghapus Rak"
 
 #: cps/shelf.py:231
-#, fuzzy
 msgid "Shelf successfully deleted"
-msgstr "Libro eliminado con éxito"
+msgstr "Rak berhasil dihapus"
 
 #: cps/shelf.py:281
 #, python-format
 msgid "Change order of Shelf: '%(name)s'"
-msgstr "Cambiar orden del estante: '%(name)s'"
+msgstr "Ubah urutan Rak: '%(name)s'"
 
 #: cps/shelf.py:313
 msgid "Sorry you are not allowed to create a public shelf"
-msgstr ""
+msgstr "Maaf, Anda tidak diizinkan membuat rak publik"
 
 #: cps/shelf.py:330
 #, python-format
 msgid "Shelf %(title)s created"
-msgstr "Estante %(title)s creado"
+msgstr "Rak %(title)s dibuat"
 
 #: cps/shelf.py:333
 #, python-format
 msgid "Shelf %(title)s changed"
-msgstr "Estante %(title)s cambiado"
+msgstr "Rak %(title)s diubah"
 
 #: cps/shelf.py:347
 msgid "There was an error"
-msgstr "Ha sucedido un error"
+msgstr "Ada kesalahan"
 
 #: cps/shelf.py:369
 #, python-format
 msgid "A public shelf with the name '%(title)s' already exists."
-msgstr "Ya existe un estante público con el nombre '%(title)s'."
+msgstr "Rak publik dengan nama '%(title)s' sudah ada."
 
 #: cps/shelf.py:380
 #, python-format
 msgid "A private shelf with the name '%(title)s' already exists."
-msgstr "Ya existe un estante privado con el nombre '%(title)s'."
+msgstr "Rak pribadi dengan nama '%(title)s' sudah ada."
 
 #: cps/shelf.py:462
 #, python-format
 msgid "Shelf: '%(name)s'"
-msgstr "Estante: '%(name)s'"
+msgstr "Rak: '%(name)s'"
 
 #: cps/shelf.py:466
 msgid "Error opening shelf. Shelf does not exist or is not accessible"
-msgstr "Error al abrir un estante. El estante no existe o no es accesible"
+msgstr "Terjadi kesalahan saat membuka rak. Rak tidak ada atau tidak dapat diakses"
 
 #: cps/tasks_status.py:48 cps/templates/layout.html:88
 #: cps/templates/tasks.html:7
 msgid "Tasks"
-msgstr "Tareas"
+msgstr "Tugas"
 
 #: cps/tasks_status.py:64
 msgid "Waiting"
-msgstr "Esperando"
+msgstr "Menunggu"
 
 #: cps/tasks_status.py:66
 msgid "Failed"
-msgstr "Fallido"
+msgstr "Gagal"
 
 #: cps/tasks_status.py:68
 msgid "Started"
-msgstr "Comenzado"
+msgstr "Dimulai"
 
 #: cps/tasks_status.py:70
 msgid "Finished"
-msgstr "Finalizado"
+msgstr "Selesai"
 
 #: cps/tasks_status.py:72
 msgid "Ended"
-msgstr ""
+msgstr "Berakhir"
 
 #: cps/tasks_status.py:74
 msgid "Cancelled"
-msgstr ""
+msgstr "Dibatalkan"
 
 #: cps/tasks_status.py:76
 msgid "Unknown Status"
-msgstr "Estado desconocido"
+msgstr "Status Tidak Diketahui"
 
 #: cps/updater.py:431 cps/updater.py:442 cps/updater.py:543 cps/updater.py:558
 msgid "Unexpected data while reading update information"
-msgstr "Dato inesperado mientras se leía la información de actualización"
+msgstr "Data tak terduga saat membaca informasi pembaruan"
 
 #: cps/updater.py:438 cps/updater.py:550
 msgid "No update available. You already have the latest version installed"
-msgstr "Actualización no disponible. Ya tienes instalada la versión más reciente"
+msgstr "Tidak ada pembaruan yang tersedia. Anda telah memasang versi terbaru"
 
 #: cps/updater.py:456
 msgid "A new update is available. Click on the button below to update to the latest version."
-msgstr "Una nueva actualización está disponible. Haz clic en el botón inferior para actualizar a la versión más reciente."
+msgstr "Pembaruan tersedia. Klik tombol di bawah untuk memperbarui ke versi terbaru."
 
 #: cps/updater.py:474
 msgid "Could not fetch update information"
-msgstr "No se puede conseguir información sobre la actualización"
+msgstr "Tidak dapat mengambil informasi pembaruan"
 
 #: cps/updater.py:484
 msgid "Click on the button below to update to the latest stable version."
-msgstr "Haz clic en el botón de abajo para actualizar a la última versión estable."
+msgstr "Klik tombol di bawah untuk memperbarui ke versi stabil terbaru."
 
 #: cps/updater.py:493 cps/updater.py:507 cps/updater.py:518
 #, python-format
 msgid "A new update is available. Click on the button below to update to version: %(version)s"
-msgstr "Hay una nueva actualización disponible. Haz clic en el botón de abajo para actualizar a la versión: %(version)s"
+msgstr "Pembaruan tersedia. Klik tombol di bawah untuk memperbarui ke versi: %(version)s"
 
 #: cps/updater.py:536
 msgid "No release information available"
-msgstr "No hay información del lanzamiento disponible"
+msgstr "Tidak ada informasi rilis yang tersedia"
 
 #: cps/templates/index.html:6 cps/web.py:433
 msgid "Discover (Random Books)"
-msgstr "Descubrir (Libros al azar)"
+msgstr "Temukan (Buku Acak)"
 
 #: cps/web.py:469
 msgid "Hot Books (Most Downloaded)"
-msgstr "Libros populares (los más descargados)"
+msgstr "Buku Populer (Paling Banyak Diunduh)"
 
 #: cps/web.py:500
 #, python-format
 msgid "Downloaded books by %(user)s"
-msgstr "Libros descargados por %(user)s"
+msgstr "Buku telah diunduh oleh %(user)s"
 
 #: cps/web.py:533
 #, python-format
 msgid "Author: %(name)s"
-msgstr "Autor/es: %(name)s"
+msgstr "Penulis: %(name)s"
 
 #: cps/web.py:569
 #, python-format
 msgid "Publisher: %(name)s"
-msgstr "Editor/es: %(name)s"
+msgstr "Penerbit: %(name)s"
 
 #: cps/web.py:597
 #, python-format
 msgid "Series: %(serie)s"
-msgstr "Series: %(serie)s"
+msgstr "Seri: %(serie)s"
 
 #: cps/web.py:612
 msgid "Rating: None"
-msgstr ""
+msgstr "Peringkat: Tidak ada"
 
 #: cps/web.py:621
 #, python-format
 msgid "Rating: %(rating)s stars"
-msgstr "Calificación: %(rating)s estrellas"
+msgstr "Peringkat: %(rating)s★"
 
 #: cps/web.py:639
 #, python-format
 msgid "File format: %(format)s"
-msgstr "Formato del archivo: %(format)s"
+msgstr "Format berkas: %(format)s"
 
 #: cps/web.py:676
 #, python-format
 msgid "Category: %(name)s"
-msgstr "Categoría : %(name)s"
+msgstr "Kategori: %(name)s"
 
 #: cps/web.py:703
 #, python-format
 msgid "Language: %(name)s"
-msgstr "Idioma: %(name)s"
+msgstr "Bahasa: %(name)s"
 
 #: cps/templates/admin.html:16 cps/web.py:941
 msgid "Downloads"
-msgstr "Descargas"
+msgstr "Unduhan"
 
 #: cps/web.py:1034
 msgid "Ratings list"
-msgstr "Lista de calificaciones"
+msgstr "Daftar peringkat"
 
 #: cps/web.py:1061
 msgid "File formats list"
-msgstr "Lista de formatos"
+msgstr "Daftar format berkas"
 
 #: cps/web.py:1203
 #, python-format
 msgid "Book successfully queued for sending to %(kindlemail)s"
-msgstr "Libro puesto en la cola de envío a %(kindlemail)s"
+msgstr "Buku telah diantrikan untuk dikirim ke %(kindlemail)s"
 
 #: cps/web.py:1207
 #, python-format
 msgid "Oops! There was an error sending this book: %(res)s"
-msgstr "Ha sucedido un error en el envío del libro: %(res)s"
+msgstr "Oops! Terjadi kesalahan saat mengirim buku: %(res)s"
 
 #: cps/web.py:1209
 msgid "Please update your profile with a valid Send to Kindle E-mail Address."
-msgstr "Por favor actualiza tu perfil con la dirección de correo de su kindle..."
+msgstr "Harap perbarui profil Anda dengan Kirim ke Alamat Email Kindle yang valid."
 
 #: cps/web.py:1226
 msgid "E-Mail server is not configured, please contact your administrator!"
-msgstr "El servidor de correo no está configurado, por favor, ¡avisa a tu administrador!"
+msgstr "Server email belum dikonfigurasi, silakan hubungi administrator!"
 
 #: cps/templates/layout.html:68 cps/templates/layout.html:102
 #: cps/templates/login.html:27 cps/templates/register.html:17 cps/web.py:1227
 #: cps/web.py:1234 cps/web.py:1240 cps/web.py:1260 cps/web.py:1265
 #: cps/web.py:1271
 msgid "Register"
-msgstr "Registro"
+msgstr "Daftar"
 
 #: cps/web.py:1262
 msgid "Your e-mail is not allowed to register"
-msgstr "Su correo electrónico no está permitido para registrarse"
+msgstr "Alamat email Anda tidak diizinkan untuk mendaftar"
 
 #: cps/web.py:1266
 msgid "Confirmation e-mail was send to your e-mail account."
-msgstr "Se ha enviado un correo electrónico de verificación a su cuenta de correo."
+msgstr "E-mail konfirmasi telah dikirimkan ke alamat email Anda."
 
 #: cps/web.py:1280
 msgid "Cannot activate LDAP authentication"
-msgstr "No se puede activar la autenticación LDAP"
+msgstr "Tidak dapat mengaktifkan autentikasi LDAP."
 
 #: cps/web.py:1299
 #, python-format
 msgid "Fallback Login as: '%(nickname)s', LDAP Server not reachable, or user not known"
-msgstr "Fallback login como: '%(nickname)s', no se puede acceder al servidor LDAP o usuario desconocido"
+msgstr "Login Pengganti sebagai: '%(nickname)s', Server LDAP tidak dapat dijangkau, atau pengguna tidak diketahui."
 
 #: cps/web.py:1305
 #, python-format
 msgid "Could not login: %(message)s"
-msgstr "No se pudo entrar: %(message)s"
+msgstr "Tidak dapat login: %(message)s"
 
 #: cps/web.py:1309 cps/web.py:1334
 msgid "Wrong Username or Password"
-msgstr "Usuario o contraseña inválido"
+msgstr "Pengguna atau Kata Sandi salah"
 
 #: cps/web.py:1316
 msgid "New Password was send to your email address"
-msgstr "Una nueva contraseña se ha enviado a su cuenta de correo electrónico"
+msgstr "Kata Sandi baru telah dikirimkan ke alamat email Anda"
 
 #: cps/web.py:1322
 msgid "Please enter valid username to reset password"
-msgstr "Por favor, introduce un usuario válido para restablecer la contraseña"
+msgstr "Harap masukkan pengguna valid untuk mengatur ulang kata sandi"
 
 #: cps/web.py:1329
 #, python-format
 msgid "You are now logged in as: '%(nickname)s'"
-msgstr "Ahora estás conectado como: '%(nickname)s'"
+msgstr "Anda telah masuk sebagai: '%(nickname)s'"
 
 #: cps/web.py:1396 cps/web.py:1445
 #, python-format
 msgid "%(name)s's profile"
-msgstr "Perfil de %(name)s"
+msgstr "Profil %(name)s"
 
 #: cps/web.py:1412
 msgid "Profile updated"
-msgstr "Perfil actualizado"
+msgstr "Profil diperbarui"
 
 #: cps/services/gmail.py:58
 msgid "Found no valid gmail.json file with OAuth information"
-msgstr "No se ha encontrado ningún archivo gmail.json válido con información OAuth"
+msgstr "Tidak ditemukan file gmail.json yang valid dengan informasi OAuth"
 
 #: cps/tasks/convert.py:153
 #, python-format
 msgid "Calibre ebook-convert %(tool)s not found"
-msgstr "Calibre ebook-convert %(tool)s no encontrado"
+msgstr "Calibre ebook-convert %(tool)s tidak ditemukan"
 
 #: cps/tasks/convert.py:186
 #, python-format
 msgid "%(format)s format not found on disk"
-msgstr "%(format)s format no encontrado en disco"
+msgstr "%(format)s format tidak ditemukan dalam disk"
 
 #: cps/tasks/convert.py:190
 msgid "Ebook converter failed with unknown error"
-msgstr "El conversor de Ebook falló con un error desconocido"
+msgstr "Konverter ebook gagal dengan kesalahan yang tidak diketahui."
 
 #: cps/tasks/convert.py:202
 #, python-format
 msgid "Kepubify-converter failed: %(error)s"
-msgstr "Kepubify-converter falló: %(error)s"
+msgstr "Kebupify-converter gagal: %(error)s"
 
 #: cps/tasks/convert.py:224
 #, python-format
 msgid "Converted file not found or more than one file in folder %(folder)s"
-msgstr "Archivo convertido no encontrado, o más de un archivo en el directorio %(folder)s"
+msgstr "Berkas yang telah dikonversi tidak ditemukan atau terdapat duplikat dalam folder %(folder)s"
 
 #: cps/tasks/convert.py:247
 #, python-format
 msgid "Ebook-converter failed: %(error)s"
-msgstr "Falló Ebook-converter: %(error)s"
+msgstr "Ebook-converter gagal: %(error)s"
 
 #: cps/tasks/convert.py:270
 #, python-format
 msgid "Calibre failed with error: %(error)s"
-msgstr "Calibre falló con el error: %(error)s"
+msgstr "Calibre gagal dengan kesalahan: %(error)s"
 
 #: cps/tasks/convert.py:275
 msgid "Convert"
-msgstr ""
+msgstr "Konversi"
 
 #: cps/tasks/database.py:28
 msgid "Reconnecting Calibre database"
-msgstr ""
+msgstr "Menghubungkan kembali basis data Calibre"
 
 #: cps/tasks/mail.py:266
 msgid "E-mail"
-msgstr ""
+msgstr "Email"
 
 #: cps/tasks/metadata_backup.py:47
 #, fuzzy
 msgid "Backing up Metadata"
-msgstr "editar metadatos"
+msgstr "Mencadangkan Metadata"
 
 #: cps/tasks/thumbnail.py:95
 #, python-format
 msgid "Generated %(count)s cover thumbnails"
-msgstr ""
+msgstr "%(count)s thumbnail sampul dibuat"
 
 #: cps/tasks/thumbnail.py:222 cps/tasks/thumbnail.py:435
 #: cps/tasks/thumbnail.py:503
 msgid "Cover Thumbnails"
-msgstr ""
+msgstr "Thumbnail Sampul"
 
 #: cps/tasks/thumbnail.py:281
 msgid "Generated {0} series thumbnails"
-msgstr ""
+msgstr "{0} thumbnail seri dihasilkan"
 
 #: cps/tasks/thumbnail.py:446
 msgid "Clearing cover thumbnail cache"
-msgstr ""
+msgstr "Menghapus cache thumbnail sampul"
 
 #: cps/tasks/upload.py:38 cps/templates/admin.html:20
 #: cps/templates/layout.html:81 cps/templates/user_table.html:145
 msgid "Upload"
-msgstr "Subir archivo"
+msgstr "Unggah"
 
 #: cps/templates/admin.html:9
 msgid "Users"
-msgstr "Usuarios"
+msgstr "Pengguna"
 
 #: cps/templates/admin.html:13 cps/templates/login.html:9
 #: cps/templates/login.html:10 cps/templates/register.html:9
 #: cps/templates/user_edit.html:10 cps/templates/user_table.html:134
 msgid "Username"
-msgstr "Nombre de usuario"
+msgstr "Nama Pengguna"
 
 #: cps/templates/admin.html:14 cps/templates/register.html:14
 #: cps/templates/user_edit.html:15 cps/templates/user_table.html:135
 msgid "E-mail Address"
-msgstr "Correo electrónico"
+msgstr "Alamat Email"
 
 #: cps/templates/admin.html:15 cps/templates/user_edit.html:28
-#, fuzzy
 msgid "Send to E-Reader E-mail Address"
-msgstr "Enviar al correo de Kindle"
+msgstr "Kirim ke Alamat Email Kindle"
 
 #: cps/templates/admin.html:17 cps/templates/layout.html:91
 #: cps/templates/user_table.html:143
@@ -1512,57 +1491,57 @@ msgstr "Admin"
 #: cps/templates/admin.html:18 cps/templates/login.html:13
 #: cps/templates/login.html:14 cps/templates/user_edit.html:23
 msgid "Password"
-msgstr "Contraseña"
+msgstr "Kata Sandi"
 
 #: cps/templates/admin.html:22 cps/templates/detail.html:19
 #: cps/templates/detail.html:28 cps/templates/shelf.html:8
 #: cps/templates/user_table.html:146
 msgid "Download"
-msgstr "Descargar"
+msgstr "Unduh"
 
 #: cps/templates/admin.html:23
 msgid "View Books"
-msgstr "Ver libros"
+msgstr "Lihat Buku"
 
 #: cps/templates/admin.html:24 cps/templates/user_table.html:131
 #: cps/templates/user_table.html:148
 msgid "Edit"
-msgstr "Editar"
+msgstr "Edit"
 
 #: cps/templates/admin.html:25 cps/templates/book_edit.html:17
 #: cps/templates/book_table.html:100 cps/templates/modal_dialogs.html:63
 #: cps/templates/modal_dialogs.html:116 cps/templates/user_edit.html:67
 #: cps/templates/user_table.html:149
 msgid "Delete"
-msgstr "Borrar"
+msgstr "Hapus"
 
 #: cps/templates/admin.html:26
 msgid "Public Shelf"
-msgstr "Estantería pública"
+msgstr "Rak Publik"
 
 #: cps/templates/admin.html:53
 msgid "Add New User"
-msgstr "Añadir nuevo usuario"
+msgstr "Tambah Pengguna Baru"
 
 #: cps/templates/admin.html:55
 msgid "Import LDAP Users"
-msgstr "Importar usuarios LDAP"
+msgstr "Impor Pengguna LDAP"
 
 #: cps/templates/admin.html:62
 msgid "E-mail Server Settings"
-msgstr "Ajustes del servidor de correo electrónico"
+msgstr "Pengaturan Server Email"
 
 #: cps/templates/admin.html:67 cps/templates/email_edit.html:31
 msgid "SMTP Hostname"
-msgstr "Servidor SMTP"
+msgstr "Hostname SMTP"
 
 #: cps/templates/admin.html:71 cps/templates/email_edit.html:35
 msgid "SMTP Port"
-msgstr "Puerto SMTP"
+msgstr "Port SMTP"
 
 #: cps/templates/admin.html:75 cps/templates/email_edit.html:39
 msgid "Encryption"
-msgstr "Encriptado"
+msgstr "Enkripsi"
 
 #: cps/templates/admin.html:79 cps/templates/email_edit.html:47
 msgid "SMTP Login"
@@ -1571,161 +1550,160 @@ msgstr "Login SMTP"
 #: cps/templates/admin.html:83 cps/templates/admin.html:94
 #: cps/templates/email_edit.html:55
 msgid "From E-mail"
-msgstr "Desde el correo"
+msgstr "Dari Email"
 
 #: cps/templates/admin.html:90
 msgid "E-Mail Service"
-msgstr "Servicio de Correo"
+msgstr "Layanan Email"
 
 #: cps/templates/admin.html:91
 msgid "Gmail via Oauth2"
-msgstr "Gmail por Oauth2"
+msgstr "Gmail via Oauth2"
 
 #: cps/templates/admin.html:106
 msgid "Configuration"
-msgstr "Configuración"
+msgstr "Konfigurasi"
 
 #: cps/templates/admin.html:109
 msgid "Calibre Database Directory"
-msgstr "Directorio de la base de datos de Calibre"
+msgstr "Jalur Database Calibre"
 
 #: cps/templates/admin.html:113 cps/templates/config_edit.html:68
 msgid "Log Level"
-msgstr "Nivel de registro"
+msgstr "Log Level"
 
 #: cps/templates/admin.html:117
 msgid "Port"
-msgstr "Puerto"
+msgstr "Port"
 
 #: cps/templates/admin.html:122
 msgid "External Port"
-msgstr "Puerto externo"
+msgstr "Port Eksternal"
 
 #: cps/templates/admin.html:129 cps/templates/config_view_edit.html:28
 msgid "Books per Page"
-msgstr "Libros por página"
+msgstr "Buku per halaman"
 
 #: cps/templates/admin.html:133
 msgid "Uploads"
-msgstr "Subidas"
+msgstr "Unggah"
 
 #: cps/templates/admin.html:137
 msgid "Anonymous Browsing"
-msgstr "Navegación anónima"
+msgstr "Penjelajahan Anonim"
 
 #: cps/templates/admin.html:141
 msgid "Public Registration"
-msgstr "Registro público"
+msgstr "Registrasi Publik"
 
 #: cps/templates/admin.html:145
 msgid "Magic Link Remote Login"
-msgstr "Acceso remoto mediante enlace mágico"
+msgstr "Login Jarak Jauh dengan Magic Link"
 
 #: cps/templates/admin.html:149
 msgid "Reverse Proxy Login"
-msgstr "Acceso mediante Proxy inverso"
+msgstr "Login Reverse Proxy"
 
 #: cps/templates/admin.html:154 cps/templates/config_edit.html:173
 msgid "Reverse Proxy Header Name"
-msgstr "Nombre de cabecera de Proxy inverso"
+msgstr "Nama Header Reverse Proxy"
 
 #: cps/templates/admin.html:159
-#, fuzzy
 msgid "Edit Calibre Database Configuration"
-msgstr "Editar la configuración de la base de datos de Calibre"
+msgstr "Edit Konfigurasi Basis Data Caliber"
 
 #: cps/templates/admin.html:160
 msgid "Edit Basic Configuration"
-msgstr "Editar la configuración básica"
+msgstr "Edit Konfigurasi Dasar"
 
 #: cps/templates/admin.html:161
 msgid "Edit UI Configuration"
-msgstr "Editar la configuración de la interfaz de usuario"
+msgstr "Edit Konfigurasi UI"
 
 #: cps/templates/admin.html:167
 msgid "Scheduled Tasks"
-msgstr ""
+msgstr "Tugas Terjadwal"
 
 #: cps/templates/admin.html:170 cps/templates/schedule_edit.html:12
 msgid "Time at which tasks start to run"
-msgstr ""
+msgstr "Waktu saat tugas mulai dijalankan"
 
 #: cps/templates/admin.html:174 cps/templates/schedule_edit.html:20
 msgid "Maximum tasks duration"
-msgstr ""
+msgstr "Durasi tugas maksimum"
 
 #: cps/templates/admin.html:178
 msgid "Generate book cover thumbnails"
-msgstr ""
+msgstr "Buat thumbnail sampul buku"
 
 #: cps/templates/admin.html:182
 msgid "Generate series cover thumbnails"
-msgstr ""
+msgstr "Buat thumbnail sampul seri"
 
 #: cps/templates/admin.html:186 cps/templates/schedule_edit.html:37
 msgid "Reconnect to Calibre Library"
-msgstr ""
+msgstr "Sambungkan kembali ke Perpustakaan Caliber"
 
 #: cps/templates/admin.html:193
 msgid "Refresh Thumbnail Cover Cache"
-msgstr ""
+msgstr "Segarkan Cache Thumbnail Sampul"
 
 #: cps/templates/admin.html:199
 msgid "Administration"
-msgstr "Administración"
+msgstr "Administrasi"
 
 #: cps/templates/admin.html:200
 msgid "Download Debug Package"
-msgstr "Descargar paquete de debug"
+msgstr "Unduh Paket Debug"
 
 #: cps/templates/admin.html:201
 msgid "View Logs"
-msgstr "Ver archivos de registro"
+msgstr "Tampilkan Log"
 
 #: cps/templates/admin.html:204
 msgid "Reconnect Calibre Database"
-msgstr "Reconectar a la BD Calibre"
+msgstr "Hubungkan Ulang Database Calibre"
 
 #: cps/templates/admin.html:207
 msgid "Restart"
-msgstr "Reiniciar"
+msgstr "Mulai Ulang"
 
 #: cps/templates/admin.html:208
 msgid "Shutdown"
-msgstr "Apagar"
+msgstr "Matikan"
 
 #: cps/templates/admin.html:216
 msgid "Version Information"
-msgstr ""
+msgstr "Perbarui"
 
 #: cps/templates/admin.html:220
 msgid "Version"
-msgstr "Versión"
+msgstr "Versi"
 
 #: cps/templates/admin.html:221
 msgid "Details"
-msgstr "Detalles"
+msgstr "Detail"
 
 #: cps/templates/admin.html:227
 msgid "Current version"
-msgstr "Versión actual"
+msgstr "Versi saat ini"
 
 #: cps/templates/admin.html:234
 msgid "Check for Update"
-msgstr "Comprobar actualizaciones"
+msgstr "Periksa Pembaruan"
 
 #: cps/templates/admin.html:235
 msgid "Perform Update"
-msgstr "Realizar actualización"
+msgstr "Lakukan Pembaruan"
 
 #: cps/templates/admin.html:248
 msgid "Are you sure you want to restart?"
-msgstr "¿Realmente quieres reiniciar?"
+msgstr "Apa Anda yakin untuk memulai ulang?"
 
 #: cps/templates/admin.html:253 cps/templates/admin.html:267
 #: cps/templates/admin.html:287 cps/templates/config_db.html:70
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 #: cps/templates/admin.html:254 cps/templates/admin.html:268
 #: cps/templates/book_edit.html:214 cps/templates/book_table.html:127
@@ -1736,183 +1714,183 @@ msgstr "Ok"
 #: cps/templates/shelf_edit.html:27 cps/templates/tasks.html:46
 #: cps/templates/user_edit.html:144
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Batal"
 
 #: cps/templates/admin.html:266
 msgid "Are you sure you want to shutdown?"
-msgstr "¿Realmente quiere detener?"
+msgstr "Apa Anda yakin untuk mematikan?"
 
 #: cps/templates/admin.html:278
 msgid "Updating, please do not reload this page"
-msgstr "Actualizando. Por favor, no recargue la página"
+msgstr "Memperbarui, jangan memuat ulang halaman ini"
 
 #: cps/templates/author.html:15
 msgid "via"
-msgstr "via"
+msgstr "melalui"
 
 #: cps/templates/author.html:23
 msgid "In Library"
-msgstr "En la Librería"
+msgstr "Dalam Pustaka"
 
 #: cps/templates/author.html:26 cps/templates/index.html:74
 #: cps/templates/search.html:31 cps/templates/shelf.html:20
 msgid "Sort according to book date, newest first"
-msgstr "Ordenar en base a fecha del libro, más reciente primero"
+msgstr "Urutkan menurut tanggal buku, terbaru dulu"
 
 #: cps/templates/author.html:27 cps/templates/index.html:75
 #: cps/templates/search.html:32 cps/templates/shelf.html:21
 msgid "Sort according to book date, oldest first"
-msgstr "Ordenar en base a fecha del libro, menos reciente primero"
+msgstr "Urutkan menurut tanggal buku, terlama dulu"
 
 #: cps/templates/author.html:28 cps/templates/index.html:76
 #: cps/templates/search.html:33 cps/templates/shelf.html:22
 msgid "Sort title in alphabetical order"
-msgstr "Ordenar en base al título en orden alfabético"
+msgstr "Urutkan judul dalam urutan abjad"
 
 #: cps/templates/author.html:29 cps/templates/index.html:77
 #: cps/templates/search.html:34 cps/templates/shelf.html:23
 msgid "Sort title in reverse alphabetical order"
-msgstr "Ordenar en base al título en orden alfabético invertido"
+msgstr "Urutkan judul dalam urutan abjad terbalik"
 
 #: cps/templates/author.html:30 cps/templates/index.html:80
 #: cps/templates/search.html:37 cps/templates/shelf.html:26
 msgid "Sort according to publishing date, newest first"
-msgstr "Ordenar en base a fecha de publicación, más reciente primero"
+msgstr "Urutkan menurut tanggal penerbitan, yang terbaru dulu"
 
 #: cps/templates/author.html:31 cps/templates/index.html:81
 #: cps/templates/search.html:38 cps/templates/shelf.html:27
 msgid "Sort according to publishing date, oldest first"
-msgstr "Ordenar en base a fecha de publicación, menos reciente primero"
+msgstr "Urutkan menurut tanggal penerbitan, yang terlama dulu"
 
 #: cps/templates/author.html:56 cps/templates/author.html:115
 #: cps/templates/index.html:30 cps/templates/index.html:113
 #: cps/templates/search.html:67 cps/templates/shelf.html:55
 msgid "reduce"
-msgstr "reducir"
+msgstr "kurangi"
 
 #: cps/templates/author.html:99
 msgid "More by"
-msgstr "Más de"
+msgstr "Lainnya oleh"
 
 #: cps/templates/book_edit.html:11
 msgid "Delete Book"
-msgstr "Borrar libro"
+msgstr "Hapus"
 
 #: cps/templates/book_edit.html:14
 msgid "Delete formats:"
-msgstr "Borrar formatos:"
+msgstr "Hapus format:"
 
 #: cps/templates/book_edit.html:25
 msgid "Convert book format:"
-msgstr "Convertir formato de libro:"
+msgstr "KOnversi format buku:"
 
 #: cps/templates/book_edit.html:30
 msgid "Convert from:"
-msgstr "Convertir desde:"
+msgstr "Konversi dari:"
 
 #: cps/templates/book_edit.html:32 cps/templates/book_edit.html:39
 msgid "select an option"
-msgstr "seleccionar una opción"
+msgstr "pilih opsi"
 
 #: cps/templates/book_edit.html:37
 msgid "Convert to:"
-msgstr "Convertir a:"
+msgstr "Konversi ke:"
 
 #: cps/templates/book_edit.html:46
 msgid "Convert book"
-msgstr "Convertir libro"
+msgstr "Konversi buku"
 
 #: cps/templates/book_edit.html:56 cps/templates/search_form.html:8
 msgid "Book Title"
-msgstr "Título del libro"
+msgstr "Judul Buku"
 
 #: cps/templates/book_edit.html:63 cps/templates/book_edit.html:271
 #: cps/templates/book_edit.html:289 cps/templates/search_form.html:12
 msgid "Author"
-msgstr "Autor"
+msgstr "Penulis"
 
 #: cps/templates/book_edit.html:68 cps/templates/book_edit.html:276
 #: cps/templates/book_edit.html:291 cps/templates/search_form.html:153
 msgid "Description"
-msgstr "Descripción"
+msgstr "Deskripsi"
 
 #: cps/templates/book_edit.html:73
 msgid "Identifiers"
-msgstr "Identificadores"
+msgstr "Pengidentifikasi"
 
 #: cps/templates/book_edit.html:77 cps/templates/book_edit.html:300
 msgid "Identifier Type"
-msgstr "Tipo de identificador"
+msgstr "Tipe Pengidentifikasi"
 
 #: cps/templates/book_edit.html:78 cps/templates/book_edit.html:301
 msgid "Identifier Value"
-msgstr "Valor de identificador"
+msgstr "Nilai Pengidentifikasi"
 
 #: cps/templates/book_edit.html:79 cps/templates/book_edit.html:302
 #: cps/templates/user_table.html:24
 msgid "Remove"
-msgstr "Borrar"
+msgstr "Hapus"
 
 #: cps/templates/book_edit.html:83
 msgid "Add Identifier"
-msgstr "Añadir identificador"
+msgstr "Tambah Pengidentifikasi"
 
 #: cps/templates/book_edit.html:87 cps/templates/search_form.html:51
 msgid "Tags"
-msgstr "Etiquetas"
+msgstr "Tag"
 
 #: cps/templates/book_edit.html:95
 msgid "Series ID"
-msgstr "ID de serie"
+msgstr "ID Seri"
 
 #: cps/templates/book_edit.html:99
 msgid "Rating"
-msgstr "Clasificación"
+msgstr "Rating"
 
 #: cps/templates/book_edit.html:104
 msgid "Fetch Cover from URL (JPEG - Image will be downloaded and stored in database)"
-msgstr "Obtener portada de URL (JPEG, la portada ser'a descargada y almacenada en la base de datos)"
+msgstr "Ambil Sampul dari URL (JPEG - Gambar akan diunduh dan disimpan dalam basis data)"
 
 #: cps/templates/book_edit.html:108
 msgid "Upload Cover from Local Disk"
-msgstr "Subir portada desde un disco local"
+msgstr "Unggah Sampul dari disk lokal"
 
 #: cps/templates/book_edit.html:113
 msgid "Published Date"
-msgstr "Fecha de publicación"
+msgstr "Tanggal Terbit"
 
 #: cps/templates/book_edit.html:122 cps/templates/book_edit.html:273
 #: cps/templates/book_edit.html:290 cps/templates/detail.html:165
 #: cps/templates/listenmp3.html:102 cps/templates/search_form.html:16
 msgid "Publisher"
-msgstr "Editor"
+msgstr "Penerbit"
 
 #: cps/templates/book_edit.html:126 cps/templates/detail.html:132
 #: cps/templates/listenmp3.html:69 cps/templates/user_edit.html:33
 msgid "Language"
-msgstr "Idioma"
+msgstr "Bahasa"
 
 #: cps/templates/book_edit.html:136 cps/templates/search_form.html:45
 #: cps/templates/search_form.html:164
 msgid "Yes"
-msgstr "Sí"
+msgstr "Ya"
 
 #: cps/templates/book_edit.html:137 cps/templates/search_form.html:46
 #: cps/templates/search_form.html:165
 msgid "No"
-msgstr "No"
+msgstr "Tidak"
 
 #: cps/templates/book_edit.html:201
 msgid "Upload Format"
-msgstr "Subir formato"
+msgstr "Format Unggahan"
 
 #: cps/templates/book_edit.html:209
 msgid "View Book on Save"
-msgstr "Ver libro tras la edición"
+msgstr "Tampilkan Buku setelah Disimpan"
 
 #: cps/templates/book_edit.html:212 cps/templates/book_edit.html:230
 msgid "Fetch Metadata"
-msgstr "Obtener metadatos"
+msgstr "Ambil Metadata"
 
 #: cps/templates/book_edit.html:213 cps/templates/config_db.html:53
 #: cps/templates/config_edit.html:358 cps/templates/config_view_edit.html:174
@@ -1920,300 +1898,296 @@ msgstr "Obtener metadatos"
 #: cps/templates/shelf_edit.html:25 cps/templates/shelf_order.html:41
 #: cps/templates/user_edit.html:142
 msgid "Save"
-msgstr "Guardar"
+msgstr "Simpan"
 
 #: cps/templates/book_edit.html:233
 msgid "Keyword"
-msgstr "Palabra clave"
+msgstr "Kata Kunci"
 
 #: cps/templates/book_edit.html:234
-#, fuzzy
 msgid "Search keyword"
-msgstr " Buscar por palabras clave "
+msgstr "Cari Kata kunci"
 
 #: cps/templates/book_edit.html:240
 msgid "Click the cover to load metadata to the form"
-msgstr "Haz clic en la portada para cargar los metadatos en el formulario"
+msgstr "Klik sampul untuk memuat metadata ke formulir"
 
 #: cps/templates/book_edit.html:247 cps/templates/book_edit.html:286
 msgid "Loading..."
-msgstr "Cargando..."
+msgstr "Memuat..."
 
 #: cps/templates/book_edit.html:251 cps/templates/layout.html:78
 #: cps/templates/layout.html:203 cps/templates/modal_dialogs.html:34
 #: cps/templates/user_edit.html:163
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Tutup"
 
 #: cps/templates/book_edit.html:278 cps/templates/book_edit.html:292
 msgid "Source"
-msgstr "Origen"
+msgstr "Sumber"
 
 #: cps/templates/book_edit.html:287
 msgid "Search error!"
-msgstr "¡Error en la búsqueda!"
+msgstr "Kesalahan pencarian!"
 
 #: cps/templates/book_edit.html:288
 msgid "No Result(s) found! Please try another keyword."
-msgstr "¡No se encontraron resultados! Por favor intenta con otra palabra clave."
+msgstr "Tidak ada hasil yang ditemukan! Silakan coba kata kunci lain."
 
 #: cps/templates/book_table.html:12 cps/templates/book_table.html:69
 #: cps/templates/user_table.html:14 cps/templates/user_table.html:77
 #: cps/templates/user_table.html:100
 msgid "This Field is Required"
-msgstr "Este campo es obligatorio"
+msgstr "Isian Ini Diperlukan"
 
 #: cps/templates/book_table.html:37
 msgid "Merge selected books"
-msgstr "Fusionar libros seleccionados"
+msgstr "Gabungkan buku terpiih"
 
 #: cps/templates/book_table.html:38 cps/templates/user_table.html:124
 msgid "Remove Selections"
-msgstr "Eliminar selección"
+msgstr "Hapus Pilihan"
 
 #: cps/templates/book_table.html:41
 msgid "Exchange author and title"
-msgstr "Intercambiar autor y título"
+msgstr "Tukar penulis dan judul"
 
 #: cps/templates/book_table.html:47
 msgid "Update Title Sort automatically"
-msgstr "Actualizar orden de título automáticamente"
+msgstr "Perbarui Pengurutan Judul secara otomatis"
 
 #: cps/templates/book_table.html:51
 msgid "Update Author Sort automatically"
-msgstr "Actualizar orden de autor automáticamente"
+msgstr "Perbarui Pengurutan Penulis secara otomatis"
 
 #: cps/templates/book_table.html:63 cps/templates/book_table.html:69
 msgid "Enter Title"
-msgstr "Introduce título"
+msgstr "Masukkan Judul"
 
 #: cps/templates/book_table.html:63 cps/templates/config_view_edit.html:24
 #: cps/templates/shelf_edit.html:8
 msgid "Title"
-msgstr "Título"
+msgstr "Judul"
 
 #: cps/templates/book_table.html:64
 msgid "Enter Title Sort"
-msgstr "Introduce el orden del título"
+msgstr "Masukkan Urutan Judul"
 
 #: cps/templates/book_table.html:64
 msgid "Title Sort"
-msgstr "Orden del título"
+msgstr "Urutan Judul"
 
 #: cps/templates/book_table.html:65
 msgid "Enter Author Sort"
-msgstr "Introduce orden del autor"
+msgstr "Masukkan Urutan Penulis"
 
 #: cps/templates/book_table.html:65
 msgid "Author Sort"
-msgstr "Orden del autor"
+msgstr "Urutan Penulis"
 
 #: cps/templates/book_table.html:66
 msgid "Enter Authors"
-msgstr "Introduce los autores"
+msgstr "Masukkan Penulis"
 
 #: cps/templates/book_table.html:67
 msgid "Enter Categories"
-msgstr "Introduce las categorías"
+msgstr "Masukkan Kategori"
 
 #: cps/templates/book_table.html:68
 msgid "Enter Series"
-msgstr "Introduce las series"
+msgstr "Masukkan Seri"
 
 #: cps/templates/book_table.html:69
 msgid "Series Index"
-msgstr "Índice de la serie"
+msgstr "Indeks Pencarian"
 
 #: cps/templates/book_table.html:70
 msgid "Enter Languages"
-msgstr "Introduce los idiomas"
+msgstr "Masukkan Bahasa"
 
 #: cps/templates/book_table.html:71
 msgid "Publishing Date"
-msgstr "Fecha de publicación"
+msgstr "Tanggal Terbit"
 
 #: cps/templates/book_table.html:72
 msgid "Enter Publishers"
-msgstr "Introduce los Editores"
+msgstr "Masukkan Penerbit"
 
 #: cps/templates/book_table.html:73
-#, fuzzy
 msgid "Enter comments"
-msgstr "Introducir nombre de dominio"
+msgstr "Masukkan komentar"
 
 #: cps/templates/book_table.html:73
 msgid "Comments"
-msgstr ""
+msgstr "Komentar"
 
 #: cps/templates/book_table.html:75
 msgid "Archive Status"
-msgstr ""
+msgstr "Status Arsip"
 
 #: cps/templates/book_table.html:77 cps/templates/search_form.html:42
 msgid "Read Status"
-msgstr "Leer estado"
+msgstr "Status Baca"
 
 #: cps/templates/book_table.html:80 cps/templates/book_table.html:82
 #: cps/templates/book_table.html:84 cps/templates/book_table.html:86
 #: cps/templates/book_table.html:90 cps/templates/book_table.html:92
 #: cps/templates/book_table.html:96
-#, fuzzy
 msgid "Enter "
-msgstr "Identificadores"
+msgstr "入力: "
 
 #: cps/templates/book_table.html:113 cps/templates/modal_dialogs.html:46
 #: cps/templates/tasks.html:36
 msgid "Are you really sure?"
-msgstr "¿Estás realmente seguro?"
+msgstr "Apakah Anda yakin?"
 
 #: cps/templates/book_table.html:117
 msgid "Books with Title will be merged from:"
-msgstr "Libros con título serán fusionados de:"
+msgstr "Buku dengan Judul akan digabungkan dari:"
 
 #: cps/templates/book_table.html:121
 msgid "Into Book with Title:"
-msgstr "En el libro con el título:"
+msgstr "Ke dalam Buku dengan Judul:"
 
 #: cps/templates/book_table.html:126
 msgid "Merge"
-msgstr "Fusionar"
+msgstr "Gabungkan"
 
 #: cps/templates/config_db.html:12
 msgid "Location of Calibre Database"
-msgstr "Ubicación de la base de datos Calibre"
+msgstr "Lokasi Database Calibre"
 
 #: cps/templates/config_db.html:22
 msgid "Use Google Drive?"
-msgstr "¿Usar Google Drive?"
+msgstr "Gunakan Google Drive?"
 
 #: cps/templates/config_db.html:27
 msgid "Authenticate Google Drive"
-msgstr "Autentificar Google Drive"
+msgstr "Autentikasi Google Drive"
 
 #: cps/templates/config_db.html:32
 msgid "Google Drive Calibre folder"
-msgstr "Carpeta de Google Drive para Calibre"
+msgstr "Silakan tekan simpan untuk melanjutkan penyiapan"
 
 #: cps/templates/config_db.html:40
 msgid "Metadata Watch Channel ID"
-msgstr "Metadata Watch Channel ID"
+msgstr "ID Saluran Metadata Watch"
 
 #: cps/templates/config_db.html:43
 msgid "Revoke"
-msgstr "Revocar"
+msgstr "Tarik Kembali"
 
 #: cps/templates/config_db.html:68
-#, fuzzy
 msgid "New db location is invalid, please enter valid path"
-msgstr "La ruta de la base de datos no es válida. Por favor, Introduce la ruta correcta"
+msgstr "Lokasi basis data baru tidak valid, harap masukkan jalur yang valid"
 
 #: cps/templates/config_edit.html:18
 msgid "Server Configuration"
-msgstr "Configuración del servidor"
+msgstr "Konfigurasi Server"
 
 #: cps/templates/config_edit.html:25
 msgid "Server Port"
-msgstr "Puerto del servidor"
+msgstr "Port Server"
 
 #: cps/templates/config_edit.html:28
 msgid "SSL certfile location (leave it empty for non-SSL Servers)"
-msgstr "Ubicación del archivo de certificado SSL (dejar en blanco si no hay un servidor SSL)"
+msgstr "Lokasi file sertifikat SSL (biarkan kosong untuk Server non-SSL)"
 
 #: cps/templates/config_edit.html:35
 msgid "SSL Keyfile location (leave it empty for non-SSL Servers)"
-msgstr "Ubicación del archivo clave SSL (dejar en blanco si no hay un servidor SSL)"
+msgstr "Lokasi SSL Keyfile (biarkan kosong untuk Server non-SSL)"
 
 #: cps/templates/config_edit.html:43
 msgid "Update Channel"
-msgstr "Canal de actualización"
+msgstr "Saluran Pembaruan"
 
 #: cps/templates/config_edit.html:45
 msgid "Stable"
-msgstr "Estable"
+msgstr "Stabil"
 
 #: cps/templates/config_edit.html:46
 msgid "Nightly"
-msgstr "Nocturno"
+msgstr "Nightly"
 
 #: cps/templates/config_edit.html:50
 msgid "Trusted Hosts (Comma Separated)"
-msgstr ""
+msgstr "Host Tepercaya (Pisahkan dengan Koma)"
 
 #: cps/templates/config_edit.html:61
 msgid "Logfile Configuration"
-msgstr "Configuración del archivo de registro"
+msgstr "Konfigurasi Logfile"
 
 #: cps/templates/config_edit.html:77
 msgid "Location and name of logfile (calibre-web.log for no entry)"
-msgstr "Ubicación y nombre del archivo de registro (si no se especifica será calibre-web.log)"
+msgstr "Lokasi dan nama file log (caliber-web.log jika tanpa entri)"
 
 #: cps/templates/config_edit.html:82
 msgid "Enable Access Log"
-msgstr "Habilitar registro de acceso"
+msgstr "Aktifkan Log Akses"
 
 #: cps/templates/config_edit.html:85
 msgid "Location and name of access logfile (access.log for no entry)"
-msgstr "Ubicación y nombre del archivo de registro de acceso (access.log no tiene ninguna entrada)"
+msgstr "Lokasi dan nama file log akses (access.log jika tanpa entri)"
 
 #: cps/templates/config_edit.html:96
 msgid "Feature Configuration"
-msgstr "Configuración de características"
+msgstr "Konfigurasi Fitur"
 
 #: cps/templates/config_edit.html:104
 msgid "Convert non-English characters in title and author while saving to disk"
-msgstr ""
+msgstr "Konversikan karakter non-Inggris dalam judul dan penulis saat menyimpan ke disk"
 
 #: cps/templates/config_edit.html:108
 msgid "Enable Uploads"
-msgstr "Permitir subidas"
+msgstr "Izinkan Unggahan"
 
 #: cps/templates/config_edit.html:108
 msgid "(Please ensure users having also upload rights)"
-msgstr ""
+msgstr "(Harap pastikan pengguna juga memiliki hak mengunggah)"
 
 #: cps/templates/config_edit.html:112
 msgid "Allowed Upload Fileformats"
-msgstr "Formatos de archivo permitidos para subida"
+msgstr "Format Berkas Unggahan yang Diizinkan"
 
 #: cps/templates/config_edit.html:118
 msgid "Enable Anonymous Browsing"
-msgstr "Permitir navegación anónima"
+msgstr "Izinkan Penjelajahan Anonim"
 
 #: cps/templates/config_edit.html:122
 msgid "Enable Public Registration"
-msgstr "Permitir registro público"
+msgstr "Izinkan Registrasi Publik"
 
 #: cps/templates/config_edit.html:127
 msgid "Use E-Mail as Username"
-msgstr "Utilizar eMail como nombre de usuario"
+msgstr "Gunakan Email sebagai Nama Pengguna"
 
 #: cps/templates/config_edit.html:132
 msgid "Enable Magic Link Remote Login"
-msgstr "Permitir inicio de sesión remoto (\"magic link\")"
+msgstr "Izinkan Login Jarak Jauh dengan Magic Link"
 
 #: cps/templates/config_edit.html:137
 msgid "Enable Kobo sync"
-msgstr "Activar la sincronización con Kobo"
+msgstr "Aktifkan sinkronisasi Kobo"
 
 #: cps/templates/config_edit.html:142
 msgid "Proxy unknown requests to Kobo Store"
-msgstr "Peticiones proxy a la tienda Kobo desconocidas"
+msgstr "Proxy permintaan tidak dikenal ke Kobo Store"
 
 #: cps/templates/config_edit.html:145
 msgid "Server External Port (for port forwarded API calls)"
-msgstr "Puerto externo del servidor (para peticiones API)"
+msgstr "Port Eksternal Server (untuk panggilan API melalui port forward)"
 
 #: cps/templates/config_edit.html:153
 msgid "Use Goodreads"
-msgstr "Usar Goodreads"
+msgstr "Gunakan Goodreads"
 
 #: cps/templates/config_edit.html:154
 msgid "Create an API Key"
-msgstr "Obtener una API Key"
+msgstr "Buat Kunci API"
 
 #: cps/templates/config_edit.html:158
 msgid "Goodreads API Key"
-msgstr "Goodreads API Key"
+msgstr "Kunci API Goodreads"
 
 #: cps/templates/config_edit.html:162
 msgid "Goodreads API Secret"
@@ -2221,35 +2195,35 @@ msgstr "Goodreads API Secret"
 
 #: cps/templates/config_edit.html:169
 msgid "Allow Reverse Proxy Authentication"
-msgstr "Permitir Autenticación Proxy Inversas"
+msgstr "Izinkan Reverse Proxy Authentication"
 
 #: cps/templates/config_edit.html:180
 msgid "Login type"
-msgstr "Tipo de inicio de sesión"
+msgstr "Tipe Login"
 
 #: cps/templates/config_edit.html:182
 msgid "Use Standard Authentication"
-msgstr "Usar autenticación estándar"
+msgstr "Gunakan Otentikasi Standar"
 
 #: cps/templates/config_edit.html:184
 msgid "Use LDAP Authentication"
-msgstr "Usar autenticación LDAP"
+msgstr "Gunakan Otentikasi LDAP"
 
 #: cps/templates/config_edit.html:187
 msgid "Use OAuth"
-msgstr "Usar OAuth"
+msgstr "Gunakan Oauth"
 
 #: cps/templates/config_edit.html:194
 msgid "LDAP Server Host Name or IP Address"
-msgstr "Nombre de host o dirección IP del servidor LDAP"
+msgstr "Nama Host Server atau Alamat IP LDAP"
 
 #: cps/templates/config_edit.html:198
 msgid "LDAP Server Port"
-msgstr "Puerto del servidor LDAP"
+msgstr "Port Server LDAP"
 
 #: cps/templates/config_edit.html:202
 msgid "LDAP Encryption"
-msgstr "Encriptación LDAP"
+msgstr "Enkripsi LDAP"
 
 #: cps/templates/config_edit.html:205
 msgid "TLS"
@@ -2261,130 +2235,130 @@ msgstr "SSL"
 
 #: cps/templates/config_edit.html:210
 msgid "LDAP CACertificate Path (Only needed for Client Certificate Authentication)"
-msgstr "Ruta LDAP CACertificate (Solo necesaria para certificado de autenticación de cliente)"
+msgstr "Jalur CACertificate LDAP (Hanya diperlukan untuk Autentikasi Sertifikat Klien)"
 
 #: cps/templates/config_edit.html:217
 msgid "LDAP Certificate Path (Only needed for Client Certificate Authentication)"
-msgstr "Ruta LDAP Certificate (Solo necesaria para certificado de autenticación de cliente)"
+msgstr "Jalur Sertifikat LDAP (Hanya diperlukan untuk Otentikasi Sertifikat Klien)"
 
 #: cps/templates/config_edit.html:224
 msgid "LDAP Keyfile Path (Only needed for Client Certificate Authentication)"
-msgstr "Ruta LDAP Keyfile (Solo necesaria para certificado de autenticación de cliente)"
+msgstr "Jalur File Kunci LDAP (Hanya diperlukan untuk Otentikasi Sertifikat Klien)"
 
 #: cps/templates/config_edit.html:233
 msgid "LDAP Authentication"
-msgstr "Autenticación LDAP"
+msgstr "Otentikasi LDAP"
 
 #: cps/templates/config_edit.html:235
 msgid "Anonymous"
-msgstr "Anónimo"
+msgstr "Anonim"
 
 #: cps/templates/config_edit.html:236
 msgid "Unauthenticated"
-msgstr "No autenticado"
+msgstr "Tidak diautentikasi"
 
 #: cps/templates/config_edit.html:237
 msgid "Simple"
-msgstr "Simple"
+msgstr "Sederhana"
 
 #: cps/templates/config_edit.html:242
 msgid "LDAP Administrator Username"
-msgstr "Nombre de usuario de administrador LDAP"
+msgstr "Nama Pengguna Administrator LDAP"
 
 #: cps/templates/config_edit.html:248
 msgid "LDAP Administrator Password"
-msgstr "Contraseña de administrador LDAP"
+msgstr "Kata Sandi Administrator LDAP"
 
 #: cps/templates/config_edit.html:253
 msgid "LDAP Distinguished Name (DN)"
-msgstr "Nombre distinguido LDAP (DN)"
+msgstr "Distinguished Name (DN) LDAP"
 
 #: cps/templates/config_edit.html:257
 msgid "LDAP User Object Filter"
-msgstr "Filtro de objetos de usuario LDAP"
+msgstr "Filter Objek Pengguna LDAP"
 
 #: cps/templates/config_edit.html:262
 msgid "LDAP Server is OpenLDAP?"
-msgstr "¿El servidor LDAP es OpenLDAP?"
+msgstr "Server LDAP adalah OpenLDAP?"
 
 #: cps/templates/config_edit.html:264
 msgid "Following Settings are Needed For User Import"
-msgstr "La siguiente configuración son necesarias para la importación de usuarios"
+msgstr "Pengaturan Berikut Diperlukan Untuk Impor Pengguna"
 
 #: cps/templates/config_edit.html:266
 msgid "LDAP Group Object Filter"
-msgstr "Filtro de objetos de grupo LDAP"
+msgstr "Filter Objek Grup LDAP"
 
 #: cps/templates/config_edit.html:270
 msgid "LDAP Group Name"
-msgstr "Nombre de grupo LDAP"
+msgstr "Nama Grup LDAP"
 
 #: cps/templates/config_edit.html:274
 msgid "LDAP Group Members Field"
-msgstr "Campo de miembros de grupo LDAP"
+msgstr "Bidang Group Members LDAP"
 
 #: cps/templates/config_edit.html:278
 msgid "LDAP Member User Filter Detection"
-msgstr "Filtro de detección LDAP Member User"
+msgstr "Deteksi Filter Pengguna Anggota LDAP"
 
 #: cps/templates/config_edit.html:280
 msgid "Autodetect"
-msgstr "Auto detectar"
+msgstr "Deteksi otomatis"
 
 #: cps/templates/config_edit.html:281
 msgid "Custom Filter"
-msgstr "Filtro personalizado"
+msgstr "Filter Kustom"
 
 #: cps/templates/config_edit.html:286
 msgid "LDAP Member User Filter"
-msgstr "Filtro LDAP Member User"
+msgstr "Filter Pengguna Anggota LDAP"
 
 #: cps/templates/config_edit.html:297
 #, python-format
 msgid "Obtain %(provider)s OAuth Credential"
-msgstr "Obtener la Credencial OAuth de %(provider)s"
+msgstr "Dapatkan %(provider)s Kredensial OAuth"
 
 #: cps/templates/config_edit.html:300
 #, python-format
 msgid "%(provider)s OAuth Client Id"
-msgstr "Id de cliente de OAuth de %(provider)s"
+msgstr "ID Klien %(provider)s OAuth"
 
 #: cps/templates/config_edit.html:304
 #, python-format
 msgid "%(provider)s OAuth Client Secret"
-msgstr "Secreto OAuth de Cliente de %(provider)s"
+msgstr "Client Secret %(provider)s OAuth"
 
 #: cps/templates/config_edit.html:320
 msgid "External binaries"
-msgstr "Binarios externos"
+msgstr "Binari Eksternal"
 
 #: cps/templates/config_edit.html:326
 msgid "Path to Calibre E-Book Converter"
-msgstr "Ruta para Calibre E-Book Converter"
+msgstr "Jalur ke Konverter E-Book Calibre"
 
 #: cps/templates/config_edit.html:334
 msgid "Calibre E-Book Converter Settings"
-msgstr "Configuración de Calibre E-Book Converter"
+msgstr "Pengaturan Konverter E-Book Caliber"
 
 #: cps/templates/config_edit.html:337
 msgid "Path to Kepubify E-Book Converter"
-msgstr "Ruta para Kepubify E-Book Converter"
+msgstr "Jalur ke Konverter E-Book Kepubify"
 
 #: cps/templates/config_edit.html:345
 msgid "Location of Unrar binary"
-msgstr "Ubicación del binario de Unrar"
+msgstr "Lokasi binari Unrar"
 
 #: cps/templates/config_view_edit.html:17
 msgid "View Configuration"
-msgstr "Ver configuración"
+msgstr "Tampilkan Konfigurasi"
 
 #: cps/templates/config_view_edit.html:32
 msgid "No. of Random Books to Display"
-msgstr "Número de libros aleatorios a mostrar"
+msgstr "Jumlah Buku Acak untuk Ditampilkan"
 
 #: cps/templates/config_view_edit.html:36
 msgid "No. of Authors to Display Before Hiding (0=Disable Hiding)"
-msgstr "Número de autores para mostrar antes de ocultar (0 = desactivar la ocultación)"
+msgstr "Jumlah Penulis untuk Ditampilkan Sebelum Disembunyikan (0=Nonaktifkan Penyembunyian)"
 
 #: cps/templates/config_view_edit.html:40 cps/templates/readcbr.html:116
 msgid "Theme"
@@ -2392,171 +2366,169 @@ msgstr "Tema"
 
 #: cps/templates/config_view_edit.html:42
 msgid "Standard Theme"
-msgstr "Tema estándar"
+msgstr "Tema Standar"
 
 #: cps/templates/config_view_edit.html:43
 msgid "caliBlur! Dark Theme"
-msgstr "caliBlur! Tema Oscuro"
+msgstr "Tema Gelap caliBlur!"
 
 #: cps/templates/config_view_edit.html:47
 msgid "Regular Expression for Ignoring Columns"
-msgstr "Expresión regular para ignorar columnas"
+msgstr "Ekspresi Reguler untuk Mengabaikan Kolom"
 
 #: cps/templates/config_view_edit.html:51
 msgid "Link Read/Unread Status to Calibre Column"
-msgstr "Enlazar a la columna de Calibre de leído/sin leer"
+msgstr "Tautkan Status Baca/Belum Dibaca ke Kolom Kaliber"
 
 #: cps/templates/config_view_edit.html:60
 msgid "View Restrictions based on Calibre column"
-msgstr "Ver restricciones basadas en la columna de Calibre"
+msgstr "Lihat Batasan berdasarkan kolom Caliber"
 
 #: cps/templates/config_view_edit.html:69
 msgid "Regular Expression for Title Sorting"
-msgstr "Expresión regular para ordenar títulos"
+msgstr "Ekspresi Reguler untuk Penyortiran Judul"
 
 #: cps/templates/config_view_edit.html:80
 msgid "Default Settings for New Users"
-msgstr "Ajustes por defecto para nuevos usuarios"
+msgstr "Pengaturan Default untuk Pengguna Baru"
 
 #: cps/templates/config_view_edit.html:88 cps/templates/user_edit.html:96
 msgid "Admin User"
-msgstr "Usuario administrador"
+msgstr "Pengguna Admin"
 
 #: cps/templates/config_view_edit.html:92 cps/templates/user_edit.html:101
 msgid "Allow Downloads"
-msgstr "Permitir descargas"
+msgstr "Izinkan Unduhan"
 
 #: cps/templates/config_view_edit.html:96 cps/templates/user_edit.html:105
 msgid "Allow eBook Viewer"
-msgstr "Permitir visor de libros"
+msgstr "Izinkan Penampil eBook"
 
 #: cps/templates/config_view_edit.html:101 cps/templates/user_edit.html:110
 msgid "Allow Uploads"
-msgstr "Permitir subidas de archivos"
+msgstr "Izinkan Unggahan"
 
 #: cps/templates/config_view_edit.html:106 cps/templates/user_edit.html:115
 msgid "Allow Edit"
-msgstr "Permitir editar"
+msgstr "Izinkan Edit"
 
 #: cps/templates/config_view_edit.html:111 cps/templates/user_edit.html:120
 msgid "Allow Delete Books"
-msgstr "Permitir borrar libros"
+msgstr "Izinkan Menghapus Buku"
 
 #: cps/templates/config_view_edit.html:116 cps/templates/user_edit.html:126
 msgid "Allow Changing Password"
-msgstr "Permitir cambiar la contraseña"
+msgstr "Izinkan Mengganti Kata Sandi"
 
 #: cps/templates/config_view_edit.html:120 cps/templates/user_edit.html:130
 msgid "Allow Editing Public Shelves"
-msgstr "Permitir editar estantes públicos"
+msgstr "Izinkan Mengedit Rak Publik"
 
 #: cps/templates/config_view_edit.html:123
-#, fuzzy
 msgid "Default Language"
-msgstr "Excluir idiomas"
+msgstr "Bahasa Bawaan"
 
 #: cps/templates/config_view_edit.html:131
-#, fuzzy
 msgid "Default Visible Language of Books"
-msgstr "Mostrar libros con idioma"
+msgstr "Bahasa Buku Bawaan yang Terlihat"
 
 #: cps/templates/config_view_edit.html:147
 msgid "Default Visibilities for New Users"
-msgstr "Visibilidad predeterminada para nuevos usuarios"
+msgstr "Visibilitas Default untuk Pengguna Baru"
 
 #: cps/templates/config_view_edit.html:163 cps/templates/user_edit.html:84
 #: cps/templates/user_table.html:154
 msgid "Show Random Books in Detail View"
-msgstr "Mostrar libros aleatorios en la vista detallada"
+msgstr "Tampilkan Buku Acak dalam Tampilan Detail"
 
 #: cps/templates/config_view_edit.html:166 cps/templates/user_edit.html:87
 msgid "Add Allowed/Denied Tags"
-msgstr "Añadir etiquetas Permitidas/Denegados"
+msgstr "Tambahkan Tag yang Diizinkan/Ditolak"
 
 #: cps/templates/config_view_edit.html:167
 msgid "Add Allowed/Denied custom column values"
-msgstr "Añadir valores personalizados Permitidos/Denegados"
+msgstr "Tambahkan nilai kolom khusus yang Diizinkan/Ditolak"
 
 #: cps/templates/detail.html:61 cps/templates/detail.html:70
 msgid "Read in Browser"
-msgstr "Leer en el navegador"
+msgstr "Baca di Peramban"
 
 #: cps/templates/detail.html:78 cps/templates/detail.html:95
 msgid "Listen in Browser"
-msgstr "Escuchar en el navegador"
+msgstr "Dengarkan di Browser"
 
 #: cps/templates/detail.html:125 cps/templates/listenmp3.html:62
-#, fuzzy, python-format
+#, python-format
 msgid "Book %(index)s of %(range)s"
-msgstr ""
+msgstr "Buku"
 
 #: cps/templates/detail.html:174 cps/templates/listenmp3.html:111
 msgid "Published"
-msgstr "Publicado"
+msgstr "Diterbitkan"
 
 #: cps/templates/detail.html:222 cps/templates/listenmp3.html:158
 msgid "Mark As Unread"
-msgstr "Marcar como no leido"
+msgstr "Tandai sebagai Belum dibaca"
 
 #: cps/templates/detail.html:222 cps/templates/listenmp3.html:158
 msgid "Mark As Read"
-msgstr "Marcar como leido"
+msgstr "Tandai sebagai dibaca"
 
 #: cps/templates/detail.html:223 cps/templates/listenmp3.html:159
 msgid "Read"
-msgstr "Leído"
+msgstr "Baca"
 
 #: cps/templates/detail.html:232 cps/templates/listenmp3.html:166
 msgid "Restore from archive"
-msgstr "Restarurar desde el archivo"
+msgstr "Pulihkan dari arsip"
 
 #: cps/templates/detail.html:232 cps/templates/listenmp3.html:166
 msgid "Add to archive"
-msgstr "Añadir a archivación"
+msgstr "Tambahkan ke Arsip"
 
 #: cps/templates/detail.html:233 cps/templates/listenmp3.html:167
 msgid "Archived"
-msgstr "Archivado"
+msgstr "Diarsipkan"
 
 #: cps/templates/detail.html:244 cps/templates/listenmp3.html:177
 msgid "Description:"
-msgstr "Descripción:"
+msgstr "Deskripsi:"
 
 #: cps/templates/detail.html:257 cps/templates/listenmp3.html:190
 #: cps/templates/search.html:16
 msgid "Add to shelf"
-msgstr "Agregar al estante"
+msgstr "Tambah ke rak"
 
 #: cps/templates/detail.html:268 cps/templates/detail.html:285
 #: cps/templates/feed.xml:79 cps/templates/layout.html:154
 #: cps/templates/listenmp3.html:201 cps/templates/listenmp3.html:218
 #: cps/templates/search.html:22
 msgid "(Public)"
-msgstr "(Público)"
+msgstr "(Publik)"
 
 #: cps/templates/detail.html:299
 msgid "Edit Metadata"
-msgstr "Editar metadatos"
+msgstr "Edit Metadata"
 
 #: cps/templates/email_edit.html:13
 msgid "Choose Server Type"
-msgstr "Elige tipo de servidor"
+msgstr "Pilih Jenis Server"
 
 #: cps/templates/email_edit.html:15
 msgid "Use Standard E-Mail Account"
-msgstr "Usar cuenta de correo estándar"
+msgstr "Gunakan Akun Email Standar"
 
 #: cps/templates/email_edit.html:16
 msgid "Gmail Account with OAuth2 Verification"
-msgstr "Verificación de cuenta Gmal con OAuth2"
+msgstr "Akun Gmail dengan Verifikasi OAuth2"
 
 #: cps/templates/email_edit.html:22
 msgid "Setup Gmail Account as E-Mail Server"
-msgstr "Configurar cuenta de Gmail como servidor de correo"
+msgstr "Siapkan Akun Gmail sebagai Server Email"
 
 #: cps/templates/email_edit.html:24
 msgid "Revoke Gmail Access"
-msgstr "Revocar acceso a Gmail"
+msgstr "Cabut Akses G-Mail"
 
 #: cps/templates/email_edit.html:42
 msgid "STARTTLS"
@@ -2568,447 +2540,441 @@ msgstr "SSL/TLS"
 
 #: cps/templates/email_edit.html:51
 msgid "SMTP Password"
-msgstr "Contraseña SMTP"
+msgstr "Kata Sandi SMTP"
 
 #: cps/templates/email_edit.html:58
 msgid "Attachment Size Limit"
-msgstr "Tamaño límite del archivo adjunto"
+msgstr "Batas Ukuran Lampiran"
 
 #: cps/templates/email_edit.html:66
 msgid "Save and Send Test E-mail"
-msgstr "Guardar y enviar un correo electrónico de prueba"
+msgstr "Simpan dan Kirim Email Percobaan"
 
 #: cps/templates/email_edit.html:70 cps/templates/layout.html:26
 #: cps/templates/shelf_order.html:42 cps/templates/user_table.html:174
 msgid "Back"
-msgstr "Regresar"
+msgstr "Kembali"
 
 #: cps/templates/email_edit.html:74
 msgid "Allowed Domains (Whitelist)"
-msgstr "Dominios permitidos para registrarse"
+msgstr "Domain yang Diizinkan (Daftar Putih)"
 
 #: cps/templates/email_edit.html:78 cps/templates/email_edit.html:105
 msgid "Add Domain"
-msgstr "Añadir dominio"
+msgstr "Tambahkan Domain"
 
 #: cps/templates/email_edit.html:81 cps/templates/email_edit.html:108
 #: cps/templates/user_table.html:27
 msgid "Add"
-msgstr "Añadir"
+msgstr "Tambah"
 
 #: cps/templates/email_edit.html:86 cps/templates/email_edit.html:96
 msgid "Enter domainname"
-msgstr "Introducir nombre de dominio"
+msgstr "Masukkan Nama Domain"
 
 #: cps/templates/email_edit.html:92
 msgid "Denied Domains (Blacklist)"
-msgstr "Dominios prohibidos (Blaclist)"
+msgstr "Domain yang Ditolak (Daftar Hitam)"
 
 #: cps/templates/feed.xml:21 cps/templates/layout.html:187
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Selanjutnya"
 
 #: cps/templates/generate_kobo_auth_url.html:6
 msgid "Open the .kobo/Kobo/Kobo eReader.conf file in a text editor and add (or edit):"
-msgstr "Abre el archivo .kobo/Kobo/Kobo eReader.conf en un editor de texto y añade (o edita):"
+msgstr "Buka file .kobo/Kobo/Kobo eReader.conf di editor teks dan tambahkan (atau edit):"
 
 #: cps/templates/generate_kobo_auth_url.html:11
-#, fuzzy
 msgid "Kobo Token:"
-msgstr "Token de sincronización de Kobo"
+msgstr "Token Kobo:"
 
 #: cps/templates/grid.html:21
 msgid "List"
-msgstr ""
+msgstr "Daftar"
 
 #: cps/templates/http_error.html:34
-#, fuzzy
 msgid "Calibre-Web Instance is unconfigured, please contact your administrator"
-msgstr "El servidor de E-Mail no está configurado, por favor contacta a tu administrador"
+msgstr "Instans Calibre-Web belum dikonfigurasi, harap hubungi administrator Anda"
 
 #: cps/templates/http_error.html:44
 msgid "Create Issue"
-msgstr "Crear una incidencia"
+msgstr "Buat Isu"
 
 #: cps/templates/http_error.html:51
 msgid "Return to Home"
-msgstr "Volver al inicio"
+msgstr "Kembali ke Beranda"
 
 #: cps/templates/http_error.html:53
 msgid "Logout User"
-msgstr "Cerrar sesión"
+msgstr "Keluar Pengguna"
 
 #: cps/templates/index.html:71
 msgid "Sort ascending according to download count"
-msgstr ""
+msgstr "Urutkan naik menurut jumlah unduhan"
 
 #: cps/templates/index.html:72
 msgid "Sort descending according to download count"
-msgstr ""
+msgstr "Urutkan turun menurut jumlah unduhan"
 
 #: cps/templates/index.html:78 cps/templates/search.html:35
 #: cps/templates/shelf.html:24
 msgid "Sort authors in alphabetical order"
-msgstr "Ordenar autores en orden alfabético"
+msgstr "Urutkan penulis dalam urutan abjad"
 
 #: cps/templates/index.html:79 cps/templates/search.html:36
 #: cps/templates/shelf.html:25
 msgid "Sort authors in reverse alphabetical order"
-msgstr "Ordenar autores en orden alfabético inverso"
+msgstr "Urutkan penulis dalam urutan abjad terbalik"
 
 #: cps/templates/index.html:83
 msgid "Sort ascending according to series index"
-msgstr "Ordenar ascendientemente en base al índice de serie"
+msgstr "Urutkan naik menurut indeks seri"
 
 #: cps/templates/index.html:84
 msgid "Sort descending according to series index"
-msgstr "Ordenar descendientemente en base al índice de serie"
+msgstr "Urutkan menurun menurut indeks seri"
 
 #: cps/templates/index.xml:6
 msgid "Start"
-msgstr "Iniciar"
+msgstr "Mulai"
 
 #: cps/templates/index.xml:18
 msgid "Alphabetical Books"
-msgstr "Libros Alfabéticos"
+msgstr "Buku Abjad"
 
 #: cps/templates/index.xml:22
 msgid "Books sorted alphabetically"
-msgstr "Libros ordenados alfabéticamente"
+msgstr "Buku diurutkan menurut abjad"
 
 #: cps/templates/index.xml:29
 msgid "Popular publications from this catalog based on Downloads."
-msgstr "Publicaciones populares de este catálogo basadas en las Descargas."
+msgstr "Publikasi populer dari katalog ini berdasarkan Unduhan."
 
 #: cps/templates/index.xml:36
 msgid "Popular publications from this catalog based on Rating."
-msgstr "Publicaciones populares del catálogo basados en la clasificación."
+msgstr "Publikasi populer dari katalog ini berdasarkan Rating."
 
 #: cps/templates/index.xml:39
 msgid "Recently added Books"
-msgstr "Libros añadidos recientemente"
+msgstr "Buku yang baru ditambahkan"
 
 #: cps/templates/index.xml:43
 msgid "The latest Books"
-msgstr "Últimos ibros"
+msgstr "Buku-buku terbaru"
 
 #: cps/templates/index.xml:46
 msgid "Random Books"
-msgstr "Libros al azar"
+msgstr "Buku Acak"
 
 #: cps/templates/index.xml:73
 msgid "Books ordered by Author"
-msgstr "Libros ordenados por autor"
+msgstr "Buku yang diurutkan menurut Penulis"
 
 #: cps/templates/index.xml:80
 msgid "Books ordered by publisher"
-msgstr "Libros ordenados por editor"
+msgstr "Buku yang diurutkan menurut Penerbit"
 
 #: cps/templates/index.xml:87
 msgid "Books ordered by category"
-msgstr "Libros ordenados por categorías"
+msgstr "Buku yang diurutkan menurut Kategori"
 
 #: cps/templates/index.xml:94
 msgid "Books ordered by series"
-msgstr "Libros ordenados por series"
+msgstr "Buku yang diurutkan menurut Seri"
 
 #: cps/templates/index.xml:101
 msgid "Books ordered by Languages"
-msgstr "Libros ordenados por idioma"
+msgstr "Buku yang diurutkan menurut Bahasa"
 
 #: cps/templates/index.xml:108
 msgid "Books ordered by Rating"
-msgstr "Libros ordenados por puntuación"
+msgstr "Buku yang diurutkan menurut Peringkat"
 
 #: cps/templates/index.xml:116
 msgid "Books ordered by file formats"
-msgstr "Libros ordenados por formato de archivo"
+msgstr "Buku yang diurutkan menurut format berkas"
 
 #: cps/templates/index.xml:119 cps/templates/layout.html:152
 #: cps/templates/search_form.html:87
 msgid "Shelves"
-msgstr "Estanterías"
+msgstr "Rak"
 
 #: cps/templates/index.xml:123
 msgid "Books organized in shelves"
-msgstr "Libros organizados en estanterías"
+msgstr "本棚に整理された本"
 
 #: cps/templates/layout.html:26 cps/templates/login.html:30
 msgid "Home"
-msgstr "Inicio"
+msgstr "Beranda"
 
 #: cps/templates/layout.html:32
 msgid "Toggle Navigation"
-msgstr "Alternar navegación"
+msgstr "Alihkan Navigasi"
 
 #: cps/templates/layout.html:47
 msgid "Search Library"
-msgstr "Buscar en la librería"
+msgstr "Cari di Pustaka"
 
 #: cps/templates/layout.html:65 cps/templates/layout.html:94
 msgid "Account"
-msgstr "Cuenta"
+msgstr "Akun"
 
 #: cps/templates/layout.html:71 cps/templates/layout.html:96
 msgid "Logout"
-msgstr "Cerrar sesión"
+msgstr "Keluar"
 
 #: cps/templates/layout.html:78 cps/templates/layout.html:134
 msgid "Uploading..."
-msgstr "Cargando..."
+msgstr "Mengunggah..."
 
 #: cps/templates/layout.html:78
 msgid "Error"
-msgstr "Error"
+msgstr "Terjadi Kesalahan"
 
 #: cps/templates/layout.html:78
 msgid "Upload done, processing, please wait..."
-msgstr "Carga hecha, procesando, por favor espere ..."
+msgstr "Unggahan selesai, harap tunggu, data sedang diproses..."
 
 #: cps/templates/layout.html:91 cps/templates/read.html:76
 #: cps/templates/readcbr.html:87 cps/templates/readcbr.html:111
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Pengaturan"
 
 #: cps/templates/layout.html:135
 msgid "Please do not refresh the page"
-msgstr "Por favor, no actualice la página"
+msgstr "Harap jangan segarkan halaman"
 
 #: cps/templates/layout.html:145
 msgid "Browse"
-msgstr "Navegar"
+msgstr "Jelajahi"
 
 #: cps/templates/layout.html:158 cps/templates/stats.html:3
 msgid "About"
-msgstr "Acerca de"
+msgstr "Tentang"
 
 #: cps/templates/layout.html:172
 msgid "Previous"
-msgstr "Previo"
+msgstr "Sebelumnya"
 
 #: cps/templates/layout.html:199
 msgid "Book Details"
-msgstr "Detalles del libro"
+msgstr "Detail Buku"
 
 #: cps/templates/list.html:22
 msgid "Grid"
-msgstr ""
+msgstr "Terjadi Kesalahan"
 
 #: cps/templates/login.html:18
 msgid "Remember Me"
-msgstr "Recordarme"
+msgstr "Ingat saya"
 
 #: cps/templates/login.html:23
 msgid "Forgot Password?"
-msgstr "¿Olvidó la contraseña?"
+msgstr "Lupa Kata Sandi?"
 
 #: cps/templates/login.html:34
 msgid "Log in with Magic Link"
-msgstr "Iniciar sesión con un enlace mágico"
+msgstr "Masuk dengan Magic Link"
 
 #: cps/templates/logviewer.html:6
 msgid "Show Calibre-Web Log: "
-msgstr "Mostrar el registro de Calibre-Web: "
+msgstr "Tampilkan Log Caliber-Web:"
 
 #: cps/templates/logviewer.html:8
 msgid "Calibre-Web Log: "
-msgstr "Registro de Calibre-Web: "
+msgstr "Log Calibre-Web: "
 
 #: cps/templates/logviewer.html:8
 msgid "Stream output, can't be displayed"
-msgstr "La salida del flujo no pudo ser mostrada"
+msgstr "Output aliran, tidak dapat ditampilkan"
 
 #: cps/templates/logviewer.html:12
 msgid "Show Access Log: "
-msgstr "Mostrar registro de acceso:"
+msgstr "Tampilkan Log Akses:"
 
 #: cps/templates/logviewer.html:18
 msgid "Download Calibre-Web Log"
-msgstr "Descargar el registro de Calibre-Web"
+msgstr "Unduh Calibre-Web Log"
 
 #: cps/templates/logviewer.html:21
 msgid "Download Access Log"
-msgstr "Descargar el registro de acceso"
+msgstr "Unduh Log Akses"
 
 #: cps/templates/modal_dialogs.html:6
 msgid "Select Allowed/Denied Tags"
-msgstr "Seleccionar etiquetas Permitidas/Denegadas"
+msgstr "Pilih Tag yang Diizinkan/Ditolak"
 
 #: cps/templates/modal_dialogs.html:7
 msgid "Select Allowed/Denied Custom Column Values"
-msgstr "Seleccionar valores propios de columnas Permitidas/Denegadas"
+msgstr "Pilih Nilai Kolom Kustom yang Diizinkan/Ditolak"
 
 #: cps/templates/modal_dialogs.html:8
 msgid "Select Allowed/Denied Tags of User"
-msgstr "Seleccionar etiquetas de usuario Permitido/Denegado"
+msgstr "Pilih Tag Pengguna yang Diizinkan/Ditolak"
 
 #: cps/templates/modal_dialogs.html:9
 msgid "Select Allowed/Denied Custom Column Values of User"
-msgstr "Seleccionar columnas personalizadas de usuario Permitido/Denegado"
+msgstr "Pilih Nilai Kolom Pengguna yang Diizinkan/Ditolak"
 
 #: cps/templates/modal_dialogs.html:15
 msgid "Enter Tag"
-msgstr "Introduce la etiqueta"
+msgstr "Masukkan Tag"
 
 #: cps/templates/modal_dialogs.html:24
 msgid "Add View Restriction"
-msgstr "Añadir restricción de vista"
+msgstr "Tambahkan Batasan Tampilan"
 
 #: cps/templates/modal_dialogs.html:50
 msgid "This book format will be permanently erased from database"
-msgstr "Este libro será borrado permanentemente de la base de datos"
+msgstr "Format buku ini akan dihapus secara permanen dari database"
 
 #: cps/templates/modal_dialogs.html:51
 msgid "This book will be permanently erased from database"
-msgstr "El libro será eliminado de la base de datos de Calibre"
+msgstr "Buku ini akan dihapus secara permanen dari basis data"
 
 #: cps/templates/modal_dialogs.html:52
 msgid "and hard disk"
-msgstr "y del disco duro"
+msgstr "dan harddisk"
 
 #: cps/templates/modal_dialogs.html:56
 msgid "Important Kobo Note: deleted books will remain on any paired Kobo device."
-msgstr "Nota de Kobo importante: los libros eliminados permanecerán en los dispositivos Kobo emparejados."
+msgstr "Catatan Penting Kobo: buku yang dihapus akan tetap ada di perangkat Kobo yang telah dipasangkan."
 
 #: cps/templates/modal_dialogs.html:57
 msgid "Books must first be archived and the device synced before a book can safely be deleted."
-msgstr "Antes de que un libro pueda ser eliminado con seguridad debe ser archivado y sincronixado con el dispositivo."
+msgstr "Buku harus diarsipkan terlebih dahulu dan perangkat disinkronkan sebelum buku dapat dihapus dengan aman."
 
 #: cps/templates/modal_dialogs.html:76
 msgid "Choose File Location"
-msgstr "Escoga la ubicación del archivo"
+msgstr "Pilih Lokasi Berkas"
 
 #: cps/templates/modal_dialogs.html:82
 msgid "type"
-msgstr "tipo"
+msgstr "tipe"
 
 #: cps/templates/modal_dialogs.html:83
 msgid "name"
-msgstr "nombre"
+msgstr "nama"
 
 #: cps/templates/modal_dialogs.html:84
 msgid "size"
-msgstr "tamaño"
+msgstr "ukuran"
 
 #: cps/templates/modal_dialogs.html:90
 msgid "Parent Directory"
-msgstr "Directorio padre"
+msgstr "Direktori Induk"
 
 #: cps/templates/modal_dialogs.html:98
 msgid "Select"
-msgstr "Seleccionar"
+msgstr "Pilih"
 
 #: cps/templates/modal_dialogs.html:134 cps/templates/tasks.html:45
-#, fuzzy
 msgid "Ok"
 msgstr "Ok"
 
 #: cps/templates/osd.xml:5
 msgid "Calibre-Web eBook Catalog"
-msgstr "Catálogo de ebooks de Calibre-Web"
+msgstr "Katalog eBook Calibre-Web"
 
 #: cps/templates/read.html:6
-#, fuzzy
 msgid "epub Reader"
-msgstr "Lector PDF"
+msgstr "Pembaca EPUB"
 
 #: cps/templates/read.html:81 cps/templates/readcbr.html:119
 msgid "Light"
-msgstr "Claro"
+msgstr "Terang"
 
 #: cps/templates/read.html:82 cps/templates/readcbr.html:120
 msgid "Dark"
-msgstr "Oscuro"
+msgstr "Gelap"
 
 #: cps/templates/read.html:83
 msgid "Sepia"
-msgstr ""
+msgstr "Sepia"
 
 #: cps/templates/read.html:84
-#, fuzzy
 msgid "Black"
-msgstr "Regresar"
+msgstr "Hitam"
 
 #: cps/templates/read.html:88
 msgid "Reflow text when sidebars are open."
-msgstr "Redimensionar el texto cuando las barras laterales están abiertas."
+msgstr "Reflow teks saat sidebar terbuka."
 
 #: cps/templates/read.html:93
 msgid "Font Sizes"
 msgstr ""
 
 #: cps/templates/readcbr.html:7
-#, fuzzy
 msgid "Comic Reader"
-msgstr "Lector PDF"
+msgstr "Pembaca Komik"
 
 #: cps/templates/readcbr.html:92
 msgid "Keyboard Shortcuts"
-msgstr "Atajos de teclado"
+msgstr "Pintasan Keyboard"
 
 #: cps/templates/readcbr.html:95
 msgid "Previous Page"
-msgstr "Página previa"
+msgstr "Halaman Sebelumnya"
 
 #: cps/templates/readcbr.html:96 cps/templates/readcbr.html:165
 msgid "Next Page"
-msgstr "Página siguiente"
+msgstr "Halaman Selanjutnya"
 
 #: cps/templates/readcbr.html:97
 msgid "Scale to Best"
-msgstr "Escalar a mejor"
+msgstr "Skala ke Terbaik"
 
 #: cps/templates/readcbr.html:98
 msgid "Scale to Width"
-msgstr "Escalar a la ancho"
+msgstr "Skala ke Lebar"
 
 #: cps/templates/readcbr.html:99
 msgid "Scale to Height"
-msgstr "Escalar a lo alto"
+msgstr "Skala ke Tinggi"
 
 #: cps/templates/readcbr.html:100
 msgid "Scale to Native"
-msgstr "Escalado nativo"
+msgstr "Skalakan ke Asli"
 
 #: cps/templates/readcbr.html:101
 msgid "Rotate Right"
-msgstr "Rotar hacia la derecha"
+msgstr "Putar ke Kanan"
 
 #: cps/templates/readcbr.html:102
 msgid "Rotate Left"
-msgstr "Rotar hacia la izquierda"
+msgstr "Putar ke Kiri"
 
 #: cps/templates/readcbr.html:103
 msgid "Flip Image"
-msgstr "Voltear imagen"
+msgstr "Balikkan Gambar"
 
 #: cps/templates/readcbr.html:125
 msgid "Scale"
-msgstr "Escalar"
+msgstr "Skala"
 
 #: cps/templates/readcbr.html:128
 msgid "Best"
-msgstr "Mejor"
+msgstr "Terbaik"
 
 #: cps/templates/readcbr.html:129
 msgid "Width"
-msgstr "Ancho"
+msgstr "Lebar"
 
 #: cps/templates/readcbr.html:130
 msgid "Height"
-msgstr "Alto"
+msgstr "Tinggi"
 
 #: cps/templates/readcbr.html:131
 msgid "Native"
-msgstr "Nativo"
+msgstr "Asli"
 
 #: cps/templates/readcbr.html:136
 msgid "Rotate"
-msgstr "Rotar"
+msgstr "Putar"
 
 #: cps/templates/readcbr.html:147
 msgid "Flip"
-msgstr "Voltear"
+msgstr "Balik"
 
 #: cps/templates/readcbr.html:150
 msgid "Horizontal"
@@ -3020,401 +2986,381 @@ msgstr "Vertical"
 
 #: cps/templates/readcbr.html:156
 msgid "Direction"
-msgstr "Dirección"
+msgstr "Arah Baca"
 
 #: cps/templates/readcbr.html:159
 msgid "Left to Right"
-msgstr "De izquierda a derecha"
+msgstr "Kiri ke Kanan"
 
 #: cps/templates/readcbr.html:160
 msgid "Right to Left"
-msgstr "De derecha a izquierda"
+msgstr "Kanan ke Kiri"
 
 #: cps/templates/readcbr.html:168
 msgid "Reset to Top"
-msgstr "Volver al principio"
+msgstr "Atur Ulang ke Atas"
 
 #: cps/templates/readcbr.html:169
 msgid "Remember Position"
-msgstr "Recordar posición"
+msgstr "Ingat Posisi"
 
 #: cps/templates/readcbr.html:174
 msgid "Scrollbar"
-msgstr "Barra de desplazamiento"
+msgstr "Scrollbar"
 
 #: cps/templates/readcbr.html:177
 msgid "Show"
-msgstr "Mostrar"
+msgstr "Tampilkan"
 
 #: cps/templates/readcbr.html:178
 msgid "Hide"
-msgstr "Ocultar"
+msgstr "Sembunyikan"
 
 #: cps/templates/readdjvu.html:5
-#, fuzzy
 msgid "DJVU Reader"
-msgstr "Lector PDF"
+msgstr "Pembaca DJVU"
 
 #: cps/templates/readpdf.html:32
-#, fuzzy
 msgid "PDF Reader"
-msgstr "Lector PDF"
+msgstr "Pembaca PDF"
 
 #: cps/templates/readtxt.html:6
-#, fuzzy
 msgid "txt Reader"
-msgstr "Lector PDF"
+msgstr "Pembaca txt"
 
 #: cps/templates/register.html:4
 msgid "Register New Account"
-msgstr "Registre una cuenta nueva"
+msgstr "Daftar Akun Baru"
 
 #: cps/templates/register.html:10
 msgid "Choose a username"
-msgstr "Escoger un nombre de usuario"
+msgstr "Pilih nama pengguna"
 
 #: cps/templates/register.html:15
 msgid "Your email address"
-msgstr "Tu dirección de correo"
+msgstr "Alamat email Anda"
 
 #: cps/templates/remote_login.html:5
 msgid "Magic Link - Authorise New Device"
-msgstr "Enlace Mágico - Autorizar un nuevo dispositivo"
+msgstr "Magic Link - Otorisasi Perangkat Baru"
 
 #: cps/templates/remote_login.html:7
 msgid "On another device, login and visit:"
-msgstr "Utiliza  otro dispositivo, inicia sesión y visita:"
+msgstr "Di perangkat lain, masuk dan kunjungi:"
 
 #: cps/templates/remote_login.html:11
 msgid "Once verified, you will automatically be logged in on this device."
-msgstr "Una vez que lo realice, iniciará sesión automáticamente en ese dispositivo."
+msgstr "Setelah diverifikasi, Anda akan secara otomatis masuk ke perangkat ini."
 
 #: cps/templates/remote_login.html:14
 msgid "This verification link will expire in 10 minutes."
-msgstr "El enlace expirará después de 10 minutos."
+msgstr "Tautan verifikasi ini akan kedaluwarsa dalam 10 menit."
 
 #: cps/templates/schedule_edit.html:29
 msgid "Generate Book Cover Thumbnails"
-msgstr ""
+msgstr "Hasilkan Thumbnail Sampul Buku"
 
 #: cps/templates/schedule_edit.html:33
 msgid "Generate Series Cover Thumbnails"
-msgstr ""
+msgstr "Hasilkan Thumbnail Sampul Seri"
 
 #: cps/templates/search.html:6
 msgid "No Results Found"
-msgstr "No se han encontrado resultados"
+msgstr "Tidak ada hasil yang ditemukan"
 
 #: cps/templates/search.html:7
 msgid "Search Term:"
-msgstr "Término de búsqueda:"
+msgstr "Istilah Penelusuran:"
 
 #: cps/templates/search.html:9
 msgid "Results for:"
-msgstr "Resultados para:"
+msgstr "Hasil untuk:"
 
 #: cps/templates/search_form.html:21
 msgid "Published Date From"
-msgstr "Fecha de publicación desde"
+msgstr "Tanggal Diterbitkan Dari"
 
 #: cps/templates/search_form.html:31
 msgid "Published Date To"
-msgstr "Fecha de publicación hasta"
+msgstr "Tanggal Diterbitkan Hingga"
 
 #: cps/templates/search_form.html:59
 msgid "Exclude Tags"
-msgstr "Excluir etiquetas"
+msgstr "Kecualikan Tag"
 
 #: cps/templates/search_form.html:77
 msgid "Exclude Series"
-msgstr "Excluir series"
+msgstr "Kecualikan Seri"
 
 #: cps/templates/search_form.html:95
-#, fuzzy
 msgid "Exclude Shelves"
-msgstr "Excluir estantes"
+msgstr "Kecualikan Rak"
 
 #: cps/templates/search_form.html:115
 msgid "Exclude Languages"
-msgstr "Excluir idiomas"
+msgstr "Kecualikan Bahasa"
 
 #: cps/templates/search_form.html:126
 msgid "Extensions"
-msgstr "Extensiones"
+msgstr "Ekstensi"
 
 #: cps/templates/search_form.html:134
 msgid "Exclude Extensions"
-msgstr "Extensiones excluidas"
+msgstr "Kecualikan Ekstensi"
 
 #: cps/templates/search_form.html:144
 msgid "Rating Above"
-msgstr "Clasificación mayor que"
+msgstr "Peringkat Diatas"
 
 #: cps/templates/search_form.html:148
 msgid "Rating Below"
-msgstr "Clasificación menor que"
+msgstr "Peringkat Dibawah"
 
 #: cps/templates/search_form.html:180
 msgid "From:"
-msgstr "De:"
+msgstr "Dari:"
 
 #: cps/templates/search_form.html:190
 msgid "To:"
-msgstr "Para:"
+msgstr "Hingga:"
 
 #: cps/templates/shelf.html:13
 msgid "Delete this Shelf"
-msgstr "Borrar este estante"
+msgstr "Hapus rak ini"
 
 #: cps/templates/shelf.html:14
 msgid "Edit Shelf Properties"
-msgstr "Editar propiedades del estante"
+msgstr "Edit Properti Rak"
 
 #: cps/templates/shelf.html:17
 msgid "Arrange books manually"
-msgstr "Ordenar libros manualmente"
+msgstr "Atur buku secara manual"
 
 #: cps/templates/shelf.html:18
 msgid "Disable Change order"
-msgstr "Deshabilitar cambio de orden"
+msgstr "Nonaktifkan Ubah urutan"
 
 #: cps/templates/shelf.html:18
 msgid "Enable Change order"
-msgstr "Habilitar cambio de orden"
+msgstr "Aktifkan Ubah urutan"
 
 #: cps/templates/shelf_edit.html:14
 msgid "Share with Everyone"
-msgstr "Compartir con todos"
+msgstr "Bagikan dengan Semua Orang"
 
 #: cps/templates/shelf_edit.html:21
 msgid "Sync this shelf with Kobo device"
-msgstr "Sincronizar este estante con un dispositivo Kobo"
+msgstr "Sinkronkan rak ini dengan perangkat Kobo"
 
 #: cps/templates/shelf_order.html:5
 msgid "Drag to Rearrange Order"
-msgstr "Arrastra para reorganizar el orden"
+msgstr "Seret untuk Mengatur Ulang Urutan"
 
 #: cps/templates/shelf_order.html:33
 msgid "Hidden Book"
-msgstr "Libro oculto"
+msgstr "Buku Tersembunyi"
 
 #: cps/templates/stats.html:7
 msgid "Library Statistics"
-msgstr "Estadísticas de la Biblioteca"
+msgstr "Statistik Pustaka"
 
 #: cps/templates/stats.html:12
 msgid "Books in this Library"
-msgstr "Libros en esta biblioteca"
+msgstr "Buku dalam Pustaka Ini"
 
 #: cps/templates/stats.html:16
 msgid "Authors in this Library"
-msgstr "Autores en esta biblioteca"
+msgstr "Penulis dalam Pustaka Ini"
 
 #: cps/templates/stats.html:20
 msgid "Categories in this Library"
-msgstr "Categorías en esta biblioteca"
+msgstr "Kategori dalam Pustaka Ini"
 
 #: cps/templates/stats.html:24
 msgid "Series in this Library"
-msgstr "Series en esta biblioteca"
+msgstr "Seri dalam Pustaka Ini"
 
 #: cps/templates/stats.html:29
 msgid "System Statistics"
-msgstr "Estadísticas del sistema"
+msgstr "Statistik Sistem"
 
 #: cps/templates/stats.html:33
 msgid "Program"
-msgstr ""
+msgstr "Pustaka Program"
 
 #: cps/templates/stats.html:34
 msgid "Installed Version"
-msgstr "Versión instalada"
+msgstr "Versi Terpasang"
 
 #: cps/templates/tasks.html:12
 msgid "User"
-msgstr "Usuario"
+msgstr "Pengguna"
 
 #: cps/templates/tasks.html:14
 msgid "Task"
-msgstr "Tarea"
+msgstr "Tugas"
 
 #: cps/templates/tasks.html:15
 msgid "Status"
-msgstr "Estado"
+msgstr "Status"
 
 #: cps/templates/tasks.html:16
 msgid "Progress"
-msgstr "Progreso"
+msgstr "Kemajuan"
 
 #: cps/templates/tasks.html:17
 msgid "Run Time"
-msgstr "Tiempo de ejecución"
+msgstr "Waktu Jalan"
 
 #: cps/templates/tasks.html:18
 msgid "Start Time"
-msgstr "Fecha de inicio"
+msgstr "Waktu Mulai"
 
 #: cps/templates/tasks.html:20
 msgid "Actions"
-msgstr ""
+msgstr "Tindakan"
 
 #: cps/templates/tasks.html:40
 msgid "This task will be cancelled. Any progress made by this task will be saved."
-msgstr ""
+msgstr "Tugas ini akan dibatalkan. Setiap kemajuan yang dibuat oleh tugas ini akan disimpan."
 
 #: cps/templates/tasks.html:41
 msgid "If this is a scheduled task, it will be re-ran during the next scheduled time."
-msgstr ""
+msgstr "Jika ini adalah tugas terjadwal, ini akan dijalankan ulang selama waktu terjadwal berikutnya."
 
 #: cps/templates/user_edit.html:20
 msgid "Reset user Password"
-msgstr "Resetear contraseña de usuario"
+msgstr "Atur ulang kata sandi pengguna"
 
 #: cps/templates/user_edit.html:43
 msgid "Language of Books"
-msgstr "Mostrar libros con idioma"
+msgstr "Bahasa Buku"
 
 #: cps/templates/user_edit.html:54
 msgid "OAuth Settings"
-msgstr "Ajustes OAuth"
+msgstr "Pengaturan OAuth"
 
 #: cps/templates/user_edit.html:56
 msgid "Link"
-msgstr "Vincular"
+msgstr "Tautan"
 
 #: cps/templates/user_edit.html:58
 msgid "Unlink"
-msgstr "Desvincular"
+msgstr "Batalkan tautan"
 
 #: cps/templates/user_edit.html:64
 msgid "Kobo Sync Token"
-msgstr "Token de sincronización de Kobo"
+msgstr "Token Kono Sync"
 
 #: cps/templates/user_edit.html:66
 msgid "Create/View"
-msgstr "Crear/Ver"
+msgstr "Buat/Lihat"
 
 #: cps/templates/user_edit.html:70
 msgid "Force full kobo sync"
-msgstr ""
+msgstr "Paksa sinkronisasi kobo penuh"
 
 #: cps/templates/user_edit.html:88
 msgid "Add allowed/Denied Custom Column Values"
-msgstr "Añadir columnas de valores propios de Permitidos/Denegados"
+msgstr "Tambahkan Nilai Kolom Kustom yang Diizinkan/Ditolak"
 
 #: cps/templates/user_edit.html:137
 msgid "Sync only books in selected shelves with Kobo"
-msgstr "Sincronizar con Kobo solo los libros de las estanterías seleccionadas"
+msgstr "Sinkronkan hanya buku di rak yang dipilih dengan Kobo"
 
 #: cps/templates/user_edit.html:147 cps/templates/user_table.html:169
 msgid "Delete User"
-msgstr "Borrar usuario"
+msgstr "Hapus Pengguna"
 
 #: cps/templates/user_edit.html:159
 msgid "Generate Kobo Auth URL"
-msgstr "Generar Auth URL de Kobo"
+msgstr "Hasilkan URL Autentikasi Kobo"
 
 #: cps/templates/user_table.html:80 cps/templates/user_table.html:103
 msgid "Select..."
-msgstr "Selección..."
+msgstr "Pilih..."
 
 #: cps/templates/user_table.html:131
-#, fuzzy
 msgid "Edit User"
-msgstr "Editar usuario"
+msgstr "Edit Pengguna"
 
 #: cps/templates/user_table.html:134
-#, fuzzy
 msgid "Enter Username"
-msgstr "Introduce el nombre de usuario"
+msgstr "Masukkan Nama Pengguna"
 
 #: cps/templates/user_table.html:135
-#, fuzzy
 msgid "Enter E-mail Address"
-msgstr "Introduce la dirección de correo electrónico"
+msgstr "Masukkan Alamar Email"
 
 #: cps/templates/user_table.html:136
-#, fuzzy
 msgid "Enter E-Reader E-mail Address"
-msgstr "Introduce la dirección de correo electrónico Kindle"
+msgstr "Masukkan Alamat Email Kindle"
 
 #: cps/templates/user_table.html:136
-#, fuzzy
 msgid "E-Reader E-mail"
-msgstr "Comprobar correo electrónico"
+msgstr "Email Kindle"
 
 #: cps/templates/user_table.html:137
-#, fuzzy
 msgid "Locale"
-msgstr "Idioma"
+msgstr "Lokal"
 
 #: cps/templates/user_table.html:138
 msgid "Visible Book Languages"
-msgstr "Idiomas de libros visibles"
+msgstr "Bahasa Buku Terlihat"
 
 #: cps/templates/user_table.html:139
-#, fuzzy
 msgid "Edit Allowed Tags"
-msgstr "Seleccionar etiquetas Permitidas"
+msgstr "Edit Tag yang Diizinkan"
 
 #: cps/templates/user_table.html:139
 msgid "Allowed Tags"
-msgstr "Etiquetas Permitidas"
+msgstr "Tag yang Diizinkan"
 
 #: cps/templates/user_table.html:140
-#, fuzzy
 msgid "Edit Denied Tags"
-msgstr "Seleccionar Etiquetas Denegadas"
+msgstr "Edit Tag yang Ditolak"
 
 #: cps/templates/user_table.html:140
 msgid "Denied Tags"
-msgstr "Etiquetas Denegadas"
+msgstr "Tag yang Ditolak"
 
 #: cps/templates/user_table.html:141
-#, fuzzy
 msgid "Edit Allowed Column Values"
-msgstr "Editar valores permitidos para la columna"
+msgstr "Edit Nilai Kolom yang Diizinkan"
 
 #: cps/templates/user_table.html:141
-#, fuzzy
 msgid "Allowed Column Values"
-msgstr "Valores permitidos de la columna"
+msgstr "Nilai Kolom yang Diizinkan"
 
 #: cps/templates/user_table.html:142
-#, fuzzy
 msgid "Edit Denied Column Values"
-msgstr "Editar valores no permitidos para la columna"
+msgstr "Edit Nilai Kolom yang Ditolak"
 
 #: cps/templates/user_table.html:142
-#, fuzzy
 msgid "Denied Column Values"
-msgstr "Valores no permitidos de la columna"
+msgstr "Nilai Kolom yang Ditolak"
 
 #: cps/templates/user_table.html:144
-#, fuzzy
 msgid "Change Password"
-msgstr "Cambiar la contraseña"
+msgstr "Ubah Kata Sandi"
 
 #: cps/templates/user_table.html:147
 msgid "View"
-msgstr "Vista"
+msgstr "Tampilan"
 
 #: cps/templates/user_table.html:150
-#, fuzzy
 msgid "Edit Public Shelves"
-msgstr "Editar Estanterías públicas"
+msgstr "Edit Rak Publik"
 
 #: cps/templates/user_table.html:152
-#, fuzzy
 msgid "Sync selected Shelves with Kobo"
-msgstr "sincronizar estanterías seleccionadas con Kobo"
+msgstr "Sinkronkan Rak yang dipilih dengan Kob"
 
 #: cps/templates/user_table.html:156
-#, fuzzy
 msgid "Show read/unread selection"
-msgstr "Mostrar selección leidos/no leidos"
+msgstr "Tampilkan pilihan baca/belum dibaca"
 
 #: cps/templates/user_table.html:159
 msgid "Show random books"
-msgstr "Mostrar libros al azar"
+msgstr "Tampilkan buku acak"
 
