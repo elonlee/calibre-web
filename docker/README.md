@@ -58,7 +58,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Version Tags
 
@@ -68,7 +68,6 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Releases of Calibre-Web |
 | nightly | ✅ | Commits to the master branch of Calibre-Web |
-
 ## Application Setup
 
 Webui can be found at `http://your-ip:8083`
@@ -81,22 +80,11 @@ On the initial setup screen, enter `/books` as your calibre library location.
 
 Unrar is included by default and needs to be set in the Calibre-Web admin page (Basic Configuration:External Binaries) with a path of `/usr/bin/unrar`
 
-**x86-64 only** We have implemented the optional ability to pull in the dependencies to enable ebook conversion utilising Calibre, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
+**64bit only** We have implemented the optional ability to pull in the dependencies to enable ebook conversion utilising Calibre, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
 This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
-To use this option add the optional environmental variable as shown below to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert`
+To use this option add the optional environmental variable as shown in the docker-mods section to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert`
 
 This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
-
-To reverse proxy with our Letsencrypt docker container we include a preconfigured reverse proxy config, for other instances of Nginx use the following location block:
-```
-        location /calibre-web {
-                proxy_pass              http://<your-ip>:8083;
-                proxy_set_header        Host            $http_host;
-                proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
-                proxy_set_header        X-Scheme        $scheme;
-                proxy_set_header        X-Script-Name   /calibre-web;
-        }
-```
 
 ## Usage
 
@@ -114,7 +102,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
       - DOCKER_MODS=linuxserver/mods:universal-calibre #optional
       - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes:
@@ -132,7 +120,7 @@ docker run -d \
   --name=calibre-web \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -e DOCKER_MODS=linuxserver/mods:universal-calibre `#optional` \
   -e OAUTHLIB_RELAX_TOKEN_SCOPE=1 `#optional` \
   -p 8083:8083 \
@@ -140,6 +128,7 @@ docker run -d \
   -v /path/to/calibre/library:/books \
   --restart unless-stopped \
   lscr.io/linuxserver/calibre-web:latest
+
 ```
 
 ## Parameters
@@ -151,7 +140,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8083` | WebUI |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London. |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e DOCKER_MODS=linuxserver/mods:universal-calibre` | #optional & **x86-64 only** Adds the ability to perform ebook conversion |
 | `-e OAUTHLIB_RELAX_TOKEN_SCOPE=1` | Optionally set this to allow Google OAUTH to work |
 | `-v /config` | Where calibre-web stores the internal database and config. |
@@ -266,6 +255,9 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.03.23:** - Add cmake as build dep for Levenshtein.
+* **27.12.22:** - Add ghostscript, libxtst6, libxkbfile-dev.
+* **20.12.22:** - Improve init script and prevent harmless error.
 * **19.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
 * **04.11.21:** - Update pip arguments to ignore distro installed packages.
 * **24.06.21:** - Add note on optional OAUTHLIB_RELAX_TOKEN_SCOPE for Google OAUTH support.
