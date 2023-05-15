@@ -192,7 +192,7 @@ class Comments(Base):
         return self.text
 
     def __repr__(self):
-        return u"<Comments({0})>".format(self.text)
+        return "<Comments({0})>".format(self.text)
 
 
 class Tags(Base):
@@ -208,7 +208,7 @@ class Tags(Base):
         return self.name
 
     def __repr__(self):
-        return u"<Tags('{0})>".format(self.name)
+        return "<Tags('{0})>".format(self.name)
 
 
 class Authors(Base):
@@ -228,7 +228,7 @@ class Authors(Base):
         return self.name
 
     def __repr__(self):
-        return u"<Authors('{0},{1}{2}')>".format(self.name, self.sort, self.link)
+        return "<Authors('{0},{1}{2}')>".format(self.name, self.sort, self.link)
 
 
 class Series(Base):
@@ -246,7 +246,7 @@ class Series(Base):
         return self.name
 
     def __repr__(self):
-        return u"<Series('{0},{1}')>".format(self.name, self.sort)
+        return "<Series('{0},{1}')>".format(self.name, self.sort)
 
 
 class Ratings(Base):
@@ -262,7 +262,7 @@ class Ratings(Base):
         return self.rating
 
     def __repr__(self):
-        return u"<Ratings('{0}')>".format(self.rating)
+        return "<Ratings('{0}')>".format(self.rating)
 
 
 class Languages(Base):
@@ -281,7 +281,7 @@ class Languages(Base):
             return self.lang_code
 
     def __repr__(self):
-        return u"<Languages('{0}')>".format(self.lang_code)
+        return "<Languages('{0}')>".format(self.lang_code)
 
 
 class Publishers(Base):
@@ -299,7 +299,7 @@ class Publishers(Base):
         return self.name
 
     def __repr__(self):
-        return u"<Publishers('{0},{1}')>".format(self.name, self.sort)
+        return "<Publishers('{0},{1}')>".format(self.name, self.sort)
 
 
 class Data(Base):
@@ -323,7 +323,7 @@ class Data(Base):
         return self.name
 
     def __repr__(self):
-        return u"<Data('{0},{1}{2}{3}')>".format(self.book, self.format, self.uncompressed_size, self.name)
+        return "<Data('{0},{1}{2}{3}')>".format(self.book, self.format, self.uncompressed_size, self.name)
 
 
 class Metadata_Dirtied(Base):
@@ -377,7 +377,7 @@ class Books(Base):
         self.has_cover = (has_cover != None)
 
     def __repr__(self):
-        return u"<Books('{0},{1}{2}{3}{4}{5}{6}{7}{8}')>".format(self.title, self.sort, self.author_sort,
+        return "<Books('{0},{1}{2}{3}{4}{5}{6}{7}{8}')>".format(self.title, self.sort, self.author_sort,
                                                                  self.timestamp, self.pubdate, self.series_index,
                                                                  self.last_modified, self.path, self.has_cover)
 
@@ -408,7 +408,7 @@ class CustomColumns(Base):
         content['table'] = "custom_column_" + str(self.id)
         content['column'] = "value"
         content['datatype'] = self.datatype
-        content['is_multiple'] = None if not self.is_multiple else self.is_multiple
+        content['is_multiple'] = None if not self.is_multiple else "|"
         content['kind'] = "field"
         content['name'] = self.name
         content['search_terms'] = ['#' + self.label]
@@ -422,9 +422,12 @@ class CustomColumns(Base):
         content['is_csp'] = False
         content['is_editable'] = self.editable
         content['rec_index'] = sequence + 22     # toDo why ??
-        content['#value#'] = value
+        if isinstance(value, datetime):
+            content['#value#'] = {"__class__": "datetime.datetime", "__value__": value.strftime("%Y-%m-%dT%H:%M:%S+00:00")}
+        else:
+            content['#value#'] = value
         content['#extra#'] = extra
-        content['is_multiple2'] = {}
+        content['is_multiple2'] = {} if not self.is_multiple else {"cache_to_list": "|", "ui_to_list": ",", "list_to_ui": ", "}
         return json.dumps(content, ensure_ascii=False)
 
 
@@ -826,8 +829,6 @@ class CalibreDB:
 
     # Orders all Authors in the list according to authors sort
     def order_authors(self, entries, list_return=False, combined=False):
-        # entries_copy = copy.deepcopy(entries)
-        # entries_copy =[]
         for entry in entries:
             if combined:
                 sort_authors = entry.Books.author_sort.split('&')
@@ -992,7 +993,12 @@ class CalibreDB:
                 title = title[len(prep):] + ', ' + prep
             return title.strip()
 
-        conn = conn or self.session.connection().connection.connection
+        try:
+            # sqlalchemy <1.4.24
+            conn = conn or self.session.connection().connection.driver_connection
+        except AttributeError:
+            # sqlalchemy >1.4.24 and sqlalchemy 2.0
+            conn = conn or self.session.connection().connection.connection
         try:
             conn.create_function("title_sort", 1, _title_sort)
         except sqliteOperationalError:
