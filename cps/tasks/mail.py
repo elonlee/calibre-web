@@ -152,7 +152,7 @@ class TaskEmail(CalibreTask):
                 main_type, sub_type = content_type.split('/', 1)
                 message.add_attachment(data, maintype=main_type, subtype=sub_type, filename=self.attachment)
             else:
-                self._handleError(u"Attachment not found")
+                self._handleError("Attachment not found")
                 return
         return message
 
@@ -166,7 +166,7 @@ class TaskEmail(CalibreTask):
                 self.send_gmail_email(msg)
         except MemoryError as e:
             log.error_or_exception(e, stacklevel=3)
-            self._handleError(u'MemoryError sending e-mail: {}'.format(str(e)))
+            self._handleError('MemoryError sending e-mail: {}'.format(str(e)))
         except (smtplib.SMTPException, smtplib.SMTPAuthenticationError) as e:
             log.error_or_exception(e, stacklevel=3)
             if hasattr(e, "smtp_error"):
@@ -177,13 +177,13 @@ class TaskEmail(CalibreTask):
                 text = '\n'.join(e.args)
             else:
                 text = ''
-            self._handleError(u'Smtplib Error sending e-mail: {}'.format(text))
+            self._handleError('Smtplib Error sending e-mail: {}'.format(text))
         except (socket.error) as e:
             log.error_or_exception(e, stacklevel=3)
-            self._handleError(u'Socket Error sending e-mail: {}'.format(e.strerror))
+            self._handleError('Socket Error sending e-mail: {}'.format(e.strerror))
         except Exception as ex:
             log.error_or_exception(ex, stacklevel=3)
-            self._handleError(u'Error sending e-mail: {}'.format(ex))
+            self._handleError('Error sending e-mail: {}'.format(ex))
 
     def send_standard_email(self, msg):
         use_ssl = int(self.settings.get('mail_use_ssl', 0))
@@ -202,8 +202,8 @@ class TaskEmail(CalibreTask):
             self.asyncSMTP.set_debuglevel(1)
         if use_ssl == 1:
             self.asyncSMTP.starttls()
-        if self.settings["mail_password"]:
-            self.asyncSMTP.login(str(self.settings["mail_login"]), str(self.settings["mail_password"]))
+        if self.settings["mail_password_e"]:
+            self.asyncSMTP.login(str(self.settings["mail_login"]), str(self.settings["mail_password_e"]))
 
         # Convert message to something to send
         fp = StringIO()
@@ -257,7 +257,7 @@ class TaskEmail(CalibreTask):
                 file_.close()
             except IOError as e:
                 log.error_or_exception(e, stacklevel=3)
-                log.error(u'The requested file could not be read. Maybe wrong permissions?')
+                log.error('The requested file could not be read. Maybe wrong permissions?')
                 return None
         return data
 
